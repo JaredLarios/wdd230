@@ -54,13 +54,14 @@ header{
     color: grey;
 }
 footer{
+    color: white;
+    text-align: center;
+
     background: linear-gradient(65deg, #008cff, #003e70, #003e70);
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 15px;
-    text-align: center;
-    color: white;
 }
-footer > p{
+.update {
     color: yellow;
 }
