@@ -61,6 +61,6 @@ footer{
     text-align: center;
     color: white;
 }
-footer p{
+footer > p{
     color: yellow;
 }
