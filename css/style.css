@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: white;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+    height: 30vmin;
+    width: 100%;
+    object-fit: cover;
+}
+
+header{
+    background: linear-gradient(65deg, #008cff, #003e70, #003e70);
+    padding-left: 4%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.photo{
+    width: 23vmin;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+.lessons{
+    border-style: ridge none ridge none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.asign-note{
+    font-style: oblique;
+    color: grey;
+}
+footer{
+    background: linear-gradient(65deg, #008cff, #003e70, #003e70);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
