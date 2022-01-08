@@ -1,7 +1,8 @@
-let copyRight = document.querySelector("#copy-right");
+const copyRight = document.querySelector("p.copy-right");
+const updates = document.getElementById("update")
 copyRight.innerHTML = "&copy 2022 .:|:. E. Jared Larios.:|:.";
 
 let updateDate = document.lastModified;
-document.write(`<p class="update">Last Updated: ${updateDate}</p>`)
+updates.innerHTML = `Last Updated: ${updateDate}`;
 
 console.log(copyRight);
