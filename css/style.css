@@ -48,6 +48,7 @@ header{
 .asign-note{
     font-style: oblique;
     color: grey;
+    padding-bottom: 25px;
 }
 footer{
     background: linear-gradient(65deg, #008cff, #003e70, #003e70);
