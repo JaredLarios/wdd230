@@ -1,6 +1,6 @@
 const copyRight = document.querySelector("p.copy-right");
 const updates = document.getElementById("update");
-copyRight.innerHTML = "&copy 2022 .:|:. E. Jared Larios.:|:. Guatemala City";
+copyRight.innerHTML = "&copy 2022 .:|:. E. Jared Larios .:|:. Guatemala City";
 
 let updateDate = document.lastModified;
 updates.innerHTML = `Last Updated: ${updateDate}`;
