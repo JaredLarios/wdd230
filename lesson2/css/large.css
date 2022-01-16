@@ -1,4 +1,4 @@
-@media only screen and (min-width: 54.5em){
+@media only screen and (min-width: 63.5em){
 
     h1{
         font-size: 3.8rem;
@@ -15,7 +15,7 @@
     }
 
     body{
-        max-width: 90%;
+        max-width: 65%;
         margin: auto;
     }
 
