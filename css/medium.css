@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em){
+    *{
+        margin-top: 5px;
+    }
+    header{
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    body{
+        margin: auto;
+    }
+    h1 {
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    .photo{
+        width: 20vmin;
+        grid-column: 1/2;
+        grid-row: 1/4;
+        width: 20vmin;
+        border-radius: 10px;
+    }
+    img{
+        height: 25vmin;
+        border-radius: 10px;
+    }
+}
