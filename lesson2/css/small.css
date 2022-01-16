@@ -1,0 +1,57 @@
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+body{
+    background-color: white;
+    display: block;
+}
+
+header, footer{
+    background: linear-gradient(65deg, #008cff, #003e70, #003e70);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-heading{
+    background-color: #003e70;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.head-title, #update{
+    color: white;
+}
+
+.photo{
+    width: 90%;
+    margin: auto;
+    max-width: 350px;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 15px;
+    margin: auto;
+    max-width: 350px;
+}
