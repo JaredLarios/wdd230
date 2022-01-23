@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, 
+footer {
+    background: linear-gradient(65deg, #008cff, #003e70, #003e70);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+header,
+nav,
+main,
+footer{
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+header h1,
+h3 {
+    font-size: 1.1rem;
+}
+
+nav {
+    background: #003e70;
+    text-align: center;
+    box-shadow: 0 2px 15px #003e70;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: #008cff;
+    color: black;
+}
+
+fieldset {
+    border: 2px solid white;
+    background-color: #80808028;
+    border-radius: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.sample-heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+fieldset:hover {
+    border-color: #003e70;
+    transition: 1.15s;
+}
+.sect1{
+    text-align: center;
+}
+.sect1 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.sect2{
+    text-align: center;
+}
+.sect2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.sect3{
+    text-align: center;
+}
+.sect3 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.sect4{
+    text-align: center;
+}
+.sect4 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
