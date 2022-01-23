@@ -81,21 +81,24 @@ fieldset:hover {
 .sect1{
     background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
 }
-.sect1 h2{
+.sect1 h2,
+.sect1 p{
     color: white;
 }
 
 .sect2 {
     background-color: #e6c5bd67;
 }
-.sect2 h2 {
+.sect2 h2,
+.sect2 p {
     color: #0e1a1f;
     text-align: center;
 }
 .sect3 {
     background: linear-gradient(0.25turn, #F4A261, #E76F51, #F4A261);
 }
-.sect3 h2 {
+.sect3 h2,
+.sect3 p {
     color: white;
     text-align: right;
 }
@@ -113,6 +116,7 @@ fieldset:hover {
     transition: 1.15s;
 }
 
-.sect4 h1{
+.sect4 h1,
+.sect4 p{
     color: #0e1a1f;
 }
