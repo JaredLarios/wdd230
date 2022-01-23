@@ -79,28 +79,28 @@ fieldset:hover {
 }
 
 .sect1{
-    background: linear-gradient( 0.25turn,#264653, #2A9D8F, #f3c758);
+    background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
 }
 .sect1 h2{
     color: white;
 }
 
 .sect2 {
-    background-color: #e76f5142;
+    background-color: #e6c5bd67;
 }
 .sect2 h2 {
     color: #0e1a1f;
     text-align: center;
 }
 .sect3 {
-    background: linear-gradient(0.25turn, #f3c758, #2A9D8F, #264653);
+    background: linear-gradient(0.25turn, #F4A261, #E76F51, #F4A261);
 }
 .sect3 h2 {
     color: white;
     text-align: right;
 }
 .sect4 {
-    background-color: #e76f5142;
+    background-color: #e6c5bd67;
 }
 .sect4:hover {
     background-color: #223e49;
@@ -109,7 +109,7 @@ fieldset:hover {
 .sect4:hover h2,
 .sect4:hover h3,
 .sect4:hover p {
-    color: #fdcbbe;
+    color: #e7d5d0;
     transition: 1.15s;
 }
 
