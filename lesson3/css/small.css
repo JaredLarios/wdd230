@@ -11,30 +11,33 @@ body {
 
 header, 
 footer {
-    background-color: #bed;
+    background: linear-gradient(65deg, #008cff, #003e70, #003e70);
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;    
+    padding: 10px;
+    color: white;
 }
 
 header,
 nav,
 main,
 footer{
-    max-width: 767px;
+    max-width: 850px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
-h1 {
+h1,
+h3 {
     font-size: 1.1rem;
 }
 
 nav {
-    background-color: grey;
+    background: #003e70;
     text-align: center;
-    box-shadow: 0 2px 15px grey;
+    box-shadow: 0 2px 15px #003e70;
 }
 
 nav ul {
@@ -51,4 +54,20 @@ nav ul li a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: #008cff;
+    color: black;
+}
+
+fieldset {
+    border: 2px solid white;
+    background-color: #80808028;
+    border-radius: 10px;
+}
+
+fieldset:hover {
+    border-color: #003e70;
+    transition: 1.15s;
 }

@@ -1,0 +1,41 @@
+@media only screen and (min-width: 32.5em){
+
+    h1,
+    h3 {
+		font-size: 2rem;
+	}
+    nav ul { 
+        display: flex; 
+    }
+    nav ul li { 
+        flex: 1 1 auto; 
+    } 
+    nav a {
+		font-size: 1.1rem;
+	}
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+    .sect1 {
+        grid-column: 2/3;
+        grid-auto-rows: 1/2;
+    }
+    .sect2 {
+        grid-column: 1/2;
+        grid-auto-rows: 2/3;
+    }
+    .sect3 {
+        grid-column: 2/3;
+        grid-auto-rows: 3/4;
+    }
+    .sect4 {
+        grid-column: 1/2;
+        grid-auto-rows: 1/2;
+    }
+
+
+
+
+}
