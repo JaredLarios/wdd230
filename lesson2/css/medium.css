@@ -35,8 +35,12 @@
         max-width: 600px;
     }
 
+    .photo {
+        width: 90%;
+    }
     section{
         height: 99%;
+        max-width: 450px;
     }
 
     .card-heading{

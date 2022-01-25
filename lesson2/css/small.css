@@ -42,7 +42,7 @@ header, footer{
 }
 
 .photo{
-    width: 90%;
+    width: 99%;
     margin: auto;
     max-width: 350px;
 }
@@ -57,5 +57,4 @@ section{
     background-color: rgba(128, 128, 128, 0.26);
     border-radius: 15px;
     margin: auto;
-    max-width: 350px;
 }
