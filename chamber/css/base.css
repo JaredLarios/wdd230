@@ -80,8 +80,8 @@ header i {
 .social li {
 	display: block;
 	flex: 1 1 auto;
-	border-top: double;
-	border-left: double;
+	border-top: solid  ;
+	border-left: solid  ;
 	border-color: #E76F51;
 }
 
