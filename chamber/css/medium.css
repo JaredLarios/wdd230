@@ -58,7 +58,7 @@
         grid-auto-flow: row;
     }
     main div:nth-child(6) {
-        grid-column: 1/2;
+        grid-column: 1/2d;
         grid-row: 3/4;
     }
 }

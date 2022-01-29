@@ -51,7 +51,7 @@ header i {
 .menu a:hover {
 	color: white;
 	background-color: #223e49;
-	transition: 1.2s;
+	transition: 0.5s;
 }
 
 .responsive {
@@ -70,6 +70,19 @@ header i {
 .responsive a{
 	transition: 1.2s;
 	text-align: center;
+}
+
+.social {
+	display: flex;
+	width: 100%;
+}
+
+.social li {
+	display: block;
+	flex: 1 1 auto;
+	border-top: double;
+	border-left: double;
+	border-color: #E76F51;
 }
 
 
