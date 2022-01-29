@@ -8,7 +8,7 @@ body {
 h1,
 h2, 
 h3 {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -31,14 +31,6 @@ header i {
 	padding: 0;
 }
 
-.menu li:first-child {
-	display: inline-flex;
-	align-items: center;
-}
-.menu li:nth-child(1){
-	display: none;
-}
-
 .menu li {
 	display: none;
 }
@@ -52,7 +44,7 @@ header i {
 	font-weight: 700;
 	transition: 1.2s;
 	font-size: clamp(1.3rem, 2vmin, 1.5rem);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 }
 
@@ -98,6 +90,9 @@ header img {
 	height: 80px;
 	border-radius: 98px;
 	padding: 10px;
-	/*
-	margin-right: auto;*/
+}
+
+footer {
+	background-color:#F4A261;
+	line-height: 85px;
 }
