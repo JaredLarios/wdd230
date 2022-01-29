@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    display: block;
+	font-family: sans-serif;
+}
+
+h1,
+h2, 
+h3 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+header i {
+	padding: 20px;
+}
+/*
+nav {
+	position: fixed;
+	left: 0;
+	right: 30%;
+	top: 100px;
+	background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	text-align: center;
+}*/
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li:first-child {
+	display: inline-flex;
+	align-items: center;
+}
+.menu li:nth-child(1){
+	display: none;
+}
+
+.menu li {
+	display: none;
+}
+
+.menu a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 1.2s;
+	font-size: clamp(1.3rem, 2vmin, 1.5rem);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+}
+
+.menu a:hover {
+	color: white;
+	background-color: #223e49;
+	transition: 1.2s;
+}
+
+.responsive {
+	transition: 1.2s;
+	position: fixed;
+	top: 80px;
+	left: 0;
+	right: 0
+}
+
+.responsive li {
+	transition: 1.2s;
+	display: block;
+	background-color: #F4A261;
+}
+.responsive a{
+	transition: 1.2s;
+	text-align: center;
+}
+
+
+main {
+	padding-top: 90px;
+}
+
+.content {
+    background-color: #e6c5bd67;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: 1.2s;
+}
+
+header img {
+	width: 80px;
+	height: 80px;
+	border-radius: 98px;
+	padding: 10px;
+	/*
+	margin-right: auto;*/
+}
