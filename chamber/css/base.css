@@ -25,18 +25,6 @@ header {
 header i {
 	padding: 20px;
 }
-/*
-nav {
-	position: fixed;
-	left: 0;
-	right: 30%;
-	top: 100px;
-	background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
-	display: flex;
-	justify-content: space-between;
-	color: white;
-	text-align: center;
-}*/
 
 .menu {
 	list-style: none;

@@ -8,3 +8,9 @@ menuBars.addEventListener('click', () => {
     row.classList.toggle('fa-chevron-up');
 }, false);
 
+window.onresize = () => {
+    if (window.innerWidth > 760){
+        menu.classList.remove('responsive');
+        row.classList.remove('fa-chevron-up');
+    };
+};

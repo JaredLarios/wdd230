@@ -1,0 +1,39 @@
+@media only screen and (min-width: 34.5em) {
+    .menu-icon{
+        display: none;
+    }
+    .bar {
+        position: fixed;
+        left: 0;
+        right: 0;
+    }
+    header {
+        justify-content: left;
+        position: absolute;
+    }
+    header img {
+        margin-left: 25px;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        top: 0.3rem;
+        left: 50%;
+        right: 0;
+        width: 45%;
+    }
+    .menu li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .menu a:hover {
+        color: #223e49;
+        background-color: rgba(255, 255, 255, 0);
+        transition: 1.2s;
+        border-color: #223e49;
+    }
+    main {
+        padding-top: 90px;
+        display: grid;
+    }
+}
