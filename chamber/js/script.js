@@ -25,7 +25,7 @@ const info ={
     logo: '<img class="logo" src="images/logo.jpg" alt="logo">'
 }
 
-infoFoot.innerHTML = `${info.logo} <p>${info.myName}</p> <p>${info.myAdd}</p> <p>${info.myEmail}</p> <p>${info.myPhone}</p>`;
+infoFoot.innerHTML = `${info.logo} <div><h2>${info.myName}</h2> <p>${info.myAdd}</p> </div> <div> <p>${info.myEmail}</p> <p>${info.myPhone}</p></div>`;
 
 const lastMod = (year, updateDate) => `&copy ${year} | GT Chamber | E. Jared Larios | WDD 230 Project | Last Modification: ${updateDate}`;
 foot.innerHTML = `<p>${lastMod(new Date().getFullYear(), document.lastModified)}</p>`;
