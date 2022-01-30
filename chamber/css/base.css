@@ -72,12 +72,12 @@ header i {
 	text-align: center;
 }
 
-.social {
+.responsive .social {
 	display: flex;
 	width: 100%;
 }
 
-.social li {
+.responsive .social li {
 	display: block;
 	flex: 1 1 auto;
 	border-top: solid  ;
@@ -87,7 +87,7 @@ header i {
 
 
 main {
-	padding-top: 90px;
+	padding-top: 80px;
 }
 
 .content {

@@ -18,7 +18,7 @@
         display: flex;
         position: relative;
         top: 0.3rem;
-        left: 50%;
+        left: 45%;
         right: 0;
         width: 45%;
     }
@@ -61,4 +61,18 @@
         grid-column: 1/2d;
         grid-row: 3/4;
     }
+
+    .social {
+        display: block;
+    }
+
+    .social li {
+        border: none;
+        background-color: #E76F51;
+        border-radius: 90%;
+    }
+    .menu .social li:hover{
+        background-color: #F4A261;
+    }
+    
 }

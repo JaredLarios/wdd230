@@ -9,7 +9,7 @@ menuBars.addEventListener('click', () => {
 }, false);
 
 window.onresize = () => {
-    if (window.innerWidth > 760){
+    if (window.innerWidth > 700){
         menu.classList.remove('responsive');
         row.classList.remove('fa-chevron-up');
     };
