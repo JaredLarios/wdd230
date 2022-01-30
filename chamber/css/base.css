@@ -57,7 +57,7 @@ header i {
 .responsive {
 	transition: 1.2s;
 	position: fixed;
-	top: 80px;
+	top: 95px;
 	left: 0;
 	right: 0
 }
@@ -103,7 +103,7 @@ header img {
 	width: 80px;
 	height: 80px;
 	border-radius: 98px;
-	padding: 10px;
+	margin: 10px;
 }
 
 .logo {
@@ -129,4 +129,15 @@ footer {
 
 .info {
 	display: block;
+}
+
+date {
+	display: block;
+	position: fixed;
+	background-color: #E76F51;
+	top: 95px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: white;
 }

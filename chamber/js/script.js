@@ -1,3 +1,4 @@
+/// footer
 const menuBars = document.querySelector(".menu-icon")
 const menu = document.querySelector(".menu")
 const row = document.querySelector(".fa-bars")
@@ -29,3 +30,14 @@ infoFoot.innerHTML = `${info.logo} <div><h2>${info.myName}</h2> <p>${info.myAdd}
 
 const lastMod = (year, updateDate) => `&copy ${year} | GT Chamber | E. Jared Larios | WDD 230 Project | Last Modification: ${updateDate}`;
 foot.innerHTML = `<p>${lastMod(new Date().getFullYear(), document.lastModified)}</p>`;
+
+// date 
+const datefield = document.querySelector("date");
+const now = new Date();
+const fulldate = new 
+
+Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now
+);
+
+datefield.innerHTML = `<em>${fulldate}</em>`;
