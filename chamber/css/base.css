@@ -106,9 +106,27 @@ header img {
 	padding: 10px;
 }
 
+.logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 98px;
+	padding-top: 5px;
+}
+
 footer {
 	background-color:#F4A261;
 	line-height: 45px;
 	text-align: center;
 	color: white;
+}
+
+#mod {
+	border-top: solid;
+	border-color: #E76F51;
+	width: 85%;
+	margin: auto;
+}
+
+.info {
+	display: block;
 }
