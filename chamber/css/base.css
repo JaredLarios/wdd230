@@ -88,6 +88,7 @@ header i {
 
 main {
 	padding-top: 80px;
+	padding-bottom: 20px;
 }
 
 .content {
@@ -107,5 +108,7 @@ header img {
 
 footer {
 	background-color:#F4A261;
-	line-height: 85px;
+	line-height: 45px;
+	text-align: center;
+	color: white;
 }

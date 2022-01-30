@@ -1,6 +1,7 @@
 const menuBars = document.querySelector(".menu-icon")
 const menu = document.querySelector(".menu")
 const row = document.querySelector(".fa-bars")
+const foot = document.querySelector("footer")
 
 
 menuBars.addEventListener('click', () => {
@@ -14,3 +15,6 @@ window.onresize = () => {
         row.classList.remove('fa-chevron-up');
     };
 };
+
+const lastMod = (year, updateDate) => `&copy ${year} | GT Chamber | E. Jared Larios | WDD 230 Project | Last Modification: ${updateDate}`;
+foot.innerText = lastMod(new Date().getFullYear(), document.lastModified);
