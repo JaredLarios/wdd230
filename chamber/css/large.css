@@ -34,6 +34,7 @@
         background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
         height: 95px;
         position: fixed;
+        top: 0;
         left: 0;
         right: 0;
     }
