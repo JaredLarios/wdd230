@@ -6,10 +6,10 @@
     }
     .bar {
         background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
-        max-height: 90px;
+        height: 95px;
     }
     main {
-        max-width: 780px;
+        max-width: 850px;
         margin: auto;
     }
     main div:nth-child(2) {
@@ -33,9 +33,19 @@
         grid-column: 2/4;
         grid-auto-rows: row;
     }
-    .logo {
-        z-index: 2;
+    .menu{
+        display: flex;
+        position: relative;
+        top: 0.3rem;
+        left: 54%;
+        right: 0;
+        width: 25%;
     }
-
+    .social {
+        display: flex;
+    }
+    .social li{
+        margin-left: 5px;
+    }
 
 }

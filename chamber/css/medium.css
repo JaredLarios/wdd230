@@ -96,6 +96,10 @@
         grid-column: 1/2;
         grid-row: 1/2;
     }
+    .logo-header {
+
+        z-index: 2;
+    }
     
     
 }

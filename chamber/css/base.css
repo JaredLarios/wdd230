@@ -20,6 +20,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	color: white;
+	height: 95px;
 }
 
 header i {
