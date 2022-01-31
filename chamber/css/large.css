@@ -33,6 +33,9 @@
         grid-column: 2/4;
         grid-auto-rows: row;
     }
+    .logo {
+        z-index: 2;
+    }
 
 
 }
