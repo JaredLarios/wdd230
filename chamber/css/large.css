@@ -38,7 +38,7 @@
         right: 0;
     }
     main {
-        max-width: 850px;
+        max-width: 1050px;
         margin: auto;
     }
     main div:nth-child(2) {
@@ -77,5 +77,10 @@
         margin-left: 5px;
         border-radius: 90%;
     }
-
+    .content{
+        height: 270px;
+    }
+    #slider {
+        height: 350px;
+    }
 }
