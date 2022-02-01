@@ -84,4 +84,11 @@
     #slider {
         height: 350px;
     }
+    #info {
+        max-width: 1324px;
+        margin: 5px auto;
+    }
+    #mod {
+        max-width: 1124px;;
+    }
 }
