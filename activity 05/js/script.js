@@ -7,21 +7,22 @@ const button = document.querySelector('button');
 function addBook() {
     let book = input.value;
     input.value = '';
+    
+    if (book != '') {
+        const liBook = document.createElement('li');
+        const liText = document.createElement('span');
+        const liBtn = document.createElement('button');
 
-    const liBook = document.createElement('li');
-    const liText = document.createElement('span');
-    const liBtn = document.createElement('button');
+        liBook.appendChild(liText);
+        liText.textContent = book;
+        liBook.appendChild(liBtn);
+        liBtn.textContent = 'Delete';
+        list.appendChild(liBook);
 
-    liBook.appendChild(liText);
-    liText.textContent = book;
-    liBook.appendChild(liBtn);
-    liBtn.textContent = '❌';
-    list.appendChild(liBook);
-
-    liBtn.onclick = function (element) {
-        list.removeChild(liBook)
+        liBtn.addEventListener('click', () => {
+            list.removeChild(liBook)
+        })
     }
-
     input.focus();
 }
 button.addEventListener('click',addBook)
