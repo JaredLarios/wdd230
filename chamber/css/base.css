@@ -21,6 +21,7 @@ header {
 	justify-content: space-between;
 	color: white;
 	height: 95px;
+	z-index: 3;
 }
 
 header i {
@@ -86,7 +87,6 @@ header i {
 	border-color: #E76F51;
 }
 
-
 main {
 	padding-top: 90px;
 	padding-bottom: 20px;
@@ -98,14 +98,6 @@ main {
     border-radius: 15px;
     margin-top: 15px;
     transition: 1.2s;
-}
-
-#slide {
-	transition: 1.3s;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 15px;
 }
 
 header img {
@@ -149,4 +141,54 @@ date {
 	right: 0;
 	text-align: center;
 	color: white;
+	z-index: 3;
+}
+
+/* slider */
+
+#slide {
+	transition: 1.3s;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+#slider img {
+	z-index: 1;
+}
+
+#slider {
+	position: relative;
+}
+
+.banner {
+	position: absolute;
+	background-color: #223e49c2;
+	margin: auto;
+	top: auto;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 15px;
+	border-radius: 0 0 15px 15px;
+}
+
+.banner h1,
+.banner span {
+	filter: none;
+	color: white;
+}
+.banner button {
+	border-radius: 25px ;
+	border-style: solid;
+	background-color: #223e49;
+	border-color: #E76F51;
+	font-size: 1.05rem;
+	padding: 15px;
+}
+
+.banner button:hover {
+	background-color: #E76F51;
+	background-color: #F4A261;
 }

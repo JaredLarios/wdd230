@@ -6,10 +6,12 @@
         display: flex;
         position: relative;
         top: 0.3rem;
-        left: 45%;
+        left: 54%;
         right: 0;
-        width: 45%;
+        width: 25%;
+        z-index: 3;
     }
+
     .menu li {
         display: block;
         flex: 1 1 auto;
@@ -29,6 +31,7 @@
         background: none;
         max-width: 1224px;
         margin: auto;
+        z-index: 3;
     }
     .bar {
         background: linear-gradient( 0.25turn,#F4A261, #E76F51, #F4A261);
@@ -37,6 +40,7 @@
         top: 0;
         left: 0;
         right: 0;
+        z-index: 3;
     }
     main {
         max-width: 1050px;
@@ -63,14 +67,6 @@
         grid-column: 2/4;
         grid-auto-rows: row;
     }
-    .menu{
-        display: flex;
-        position: relative;
-        top: 0.3rem;
-        left: 54%;
-        right: 0;
-        width: 25%;
-    }
     .social {
         display: flex;
     }
@@ -90,5 +86,14 @@
     }
     #mod {
         max-width: 1124px;;
+    }
+    .banner {
+        background-color: #223e49ef;
+        top: 110px;
+        bottom: auto;
+        left: 30%;
+        right: auto;
+        max-width: 450px;
+        border-radius: 15px;
     }
 }
