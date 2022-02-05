@@ -100,6 +100,14 @@ main {
     transition: 1.2s;
 }
 
+#slide {
+	transition: 1.3s;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
 header img {
 	width: 80px;
 	height: 80px;

@@ -1,7 +1,5 @@
 ///  modelus 
 
-import slide from './slider.js';
-
 /// footer
 const menuBars = document.querySelector(".menu-icon")
 const menu = document.querySelector(".menu")
@@ -46,8 +44,20 @@ Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+window.addEventListener('load', () => {
+    console.log('loaded items');
+    const images = ['images/chamber.jpg','images/chamber-2.jpg','images/chamber-3.jpg'];
+    let indexImage = 0;
 
-const images = ['../images/chamber.jpg','../images/chamber-2.jpg','../images/chamber-3.jpg'];
+    const slideShow = () => { 
 
-let slideImages = slide(images);
-console.log(slideImages)
+        document.querySelector('#slide').setAttribute('src',images[indexImage])
+
+        if (indexImage < 2) {
+            indexImage++;
+        } else {
+            indexImage = 0; 
+        }
+    }
+    setInterval(slideShow, 1.5 * 3600);
+});
