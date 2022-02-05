@@ -31,6 +31,7 @@ header i {
 .menu {
 	list-style: none;
 	padding: 0;
+	z-index: 3;
 }
 
 .menu li {
@@ -168,10 +169,12 @@ date {
 	margin: auto;
 	top: auto;
 	bottom: 0;
+	padding-top:  25px;
 	width: 100%;
+	height: 80%;
 	text-align: center;
 	padding-bottom: 15px;
-	border-radius: 0 0 15px 15px;
+	border-radius: 15px;
 }
 
 .banner h1,
@@ -201,4 +204,21 @@ position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
  
 .responsiveCal iframe {
 position: absolute; top:0; left: 0; width: 100%; height: 100%;
+}
+
+/* location */
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height: 100%;
+	width: 100%;
+	border-radius: 15px;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height: 100%;
+	width: 100%;
 }
