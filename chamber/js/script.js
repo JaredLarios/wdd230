@@ -59,5 +59,5 @@ window.addEventListener('load', () => {
             indexImage = 0; 
         }
     }
-    setInterval(slideShow, 1.5 * 3600);
+    setInterval(slideShow, 2 * 3600);
 });
