@@ -92,8 +92,8 @@
         background-color: #223e49ef;
         top: 110px;
         bottom: auto;
-        left: 30%;
-        right: auto;
+        left: 0;
+        right: 0;
         max-width: 450px;
         border-radius: 15px;
         height: 165px;
