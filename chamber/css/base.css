@@ -112,6 +112,29 @@ main {
     border-radius: 15px;
     margin-top: 15px;
     transition: 1.2s;
+	position: relative;
+}
+.content img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+.mini-banner {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: white;
+	background-color: #e76f51c7;
+	text-align: center;
+	border-radius: 0 0 15px 15px;
+}
+.join {
+	top: 0;
+	border-radius: 15px;
+	padding-top: 45px;
 }
 
 header img {
