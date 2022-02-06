@@ -64,6 +64,9 @@ header i {
 	left: 0;
 	right: 0
 }
+.responsive-2{
+	top: 168px;
+}
 
 .responsive li {
 	transition: 1.2s;
@@ -144,6 +147,13 @@ date {
 	color: white;
 	z-index: 3;
 }
+date a {
+	text-decoration: none;
+	color: white;
+}
+date a:hover {
+	color: #223e49;
+}
 
 /* slider */
 
@@ -221,4 +231,8 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 	background:none!important;
 	height: 100%;
 	width: 100%;
+}
+
+.space {
+	height: 60px;
 }

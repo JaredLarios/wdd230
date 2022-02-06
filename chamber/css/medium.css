@@ -66,6 +66,10 @@
 
         z-index: 2;
     }
-    
-    
+    .responsive-2{
+        top: 150px;
+    }
+    .space {
+        height: 50px;
+    }
 }

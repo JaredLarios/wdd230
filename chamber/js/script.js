@@ -61,3 +61,17 @@ window.addEventListener('load', () => {
     }
     setInterval(slideShow, 2 * 3600);
 });
+
+// Pop Up
+
+
+console.log(now.getDay())
+
+if (now.getDay() === 2 || now.getDay() == 3 ) {
+    datefield.innerHTML += 
+    `<p><a href='#'>
+    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
+    </a></p>`;
+    menu.classList.toggle('responsive-2');
+    document.querySelector('.pop').classList.toggle('space')
+}
