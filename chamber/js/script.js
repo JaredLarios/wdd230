@@ -34,7 +34,7 @@ const lastMod = (year, updateDate) => `&copy ${year} | GT Chamber | E. Jared Lar
 foot.innerHTML = `<p>${lastMod(new Date().getFullYear(), document.lastModified)}</p>`;
 
 // date 
-const datefield = document.querySelector("date");
+const datefield = document.querySelector(".date");
 const now = new Date();
 const fulldate = new 
 

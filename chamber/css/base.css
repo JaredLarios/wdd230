@@ -147,7 +147,7 @@ footer {
 	display: block;
 }
 
-date {
+.date {
 	display: block;
 	position: fixed;
 	background-color: #E76F51;
@@ -158,11 +158,12 @@ date {
 	color: white;
 	z-index: 3;
 }
-date a {
+.date a {
 	text-decoration: none;
 	color: white;
 }
-date a:hover {
+
+.date a:hover {
 	color: #223e49;
 }
 
