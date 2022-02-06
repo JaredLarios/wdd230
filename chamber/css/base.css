@@ -8,6 +8,11 @@ body {
 iframe {
 	width: 100%;
 	height: 100%;
+	border: 0;
+	scroll-behavior: none;
+	margin: 0;
+	border-radius: 15px;
+	border: 0;
 }
 
 h1,
@@ -215,11 +220,18 @@ date a:hover {
 
 /* calendar */ 
 .responsiveCal {
-position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+position: relative; 
+padding-bottom: 75%; 
+height: 0; 
+overflow: hidden;
 }
  
 .responsiveCal iframe {
-position: absolute; top:0; left: 0; width: 100%; height: 100%;
+position: absolute; 
+top:0; 
+left: 0; 
+width: 100%; 
+height: 100%;
 }
 
 /* location */
