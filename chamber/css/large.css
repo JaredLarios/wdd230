@@ -48,11 +48,11 @@
     }
     main div:nth-child(2) {
         grid-column: 2/3;
-        grid-auto-rows: row;
+        grid-auto-rows: auto;
     }
     main div:nth-child(3) {
         grid-column: 3/4;
-        grid-auto-rows: row;
+        grid-auto-rows: auto;
     }
     main div:nth-child(4) {
         grid-column: 1/2;
@@ -62,11 +62,11 @@
     }
     main div:nth-child(5) {
         grid-column: 1/4;
-        grid-auto-rows: row;
+        grid-auto-rows: auto;
     }
     main div:nth-child(6) {
         grid-column: 2/4;
-        grid-auto-rows: row;
+        grid-auto-rows: auto;
     }
     .social {
         display: flex;
