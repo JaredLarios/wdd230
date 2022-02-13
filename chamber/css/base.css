@@ -120,6 +120,11 @@ main {
 	object-fit: cover;
 	border-radius: 15px;
 }
+.store-fig{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
 
 .mini-banner {
 	position: absolute;

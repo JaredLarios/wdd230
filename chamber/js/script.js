@@ -46,7 +46,7 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 
 window.addEventListener('load', () => {
     console.log('loaded items');
-    const images = ['images/chamber.jpg','images/chamber-2.jpg','images/chamber-3.jpg'];
+    const images = ['images/chamber.jpg','images/chamber-2.jpg','images/chamber-3.jpg', 'images/wdd230-org.jpg'];
     let indexImage = 0;
 
     const slideShow = () => { 
