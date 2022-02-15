@@ -1,4 +1,5 @@
 ///  modelus 
+import weather from "./windchill.js"
 
 /// footer
 const menuBars = document.querySelector(".menu-icon")
@@ -82,3 +83,7 @@ if (now.getDay() === 2 || now.getDay() == 3 ) {
     menu.classList.toggle('responsive-2');
     document.querySelector('.pop').classList.toggle('space')
 }
+
+/* Weather */
+
+const init = weather.display()
