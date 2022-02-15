@@ -47,13 +47,20 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 window.addEventListener('load', () => {
     console.log('loaded items');
     const images = ['images/chamber.jpg','images/chamber-2.jpg','images/chamber-3.jpg', 'images/wdd230-org.jpg'];
+    const responsive = [
+        'images/chamber200.jpg 200vw, images/chamber500.jpg 500vw, images/chamber800.jpg 800vw',
+        'images/chamber-2-200.jpg 200vw, images/chamber-2-500.jpg 500vw, images/chamber-2-800.jpg 800vw',
+        'images/chamber-3-200.jpg 200vw, images/chamber-3-500.jpg 500vw, images/chamber-3-800.jpg 800vw',
+        'images/wdd230-org200.jpg 200vw, images/wdd230-org500.jpg 500vw, images/wdd230-org800.jpg 800vw'
+    ];
     let indexImage = 0;
 
     const slideShow = () => { 
 
         document.querySelector('#slide').setAttribute('src',images[indexImage])
+        document.querySelector('#slide').setAttribute('srcset', responsive[indexImage])
 
-        if (indexImage < 2) {
+        if (indexImage < 3) {
             indexImage++;
         } else {
             indexImage = 0; 
