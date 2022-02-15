@@ -286,3 +286,11 @@ height: 100%;
 .space {
 	height: 60px;
 }
+
+/* ------------------ Weather ---------------*/
+
+.weather {
+	top: 0;
+	border-radius: 15px;
+	background-color: #e76f51a1;
+}
