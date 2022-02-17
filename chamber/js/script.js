@@ -45,6 +45,7 @@ Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+/*
 window.addEventListener('load', () => {
     console.log('loaded items');
     const images = ['images/chamber.jpg','images/chamber-2.jpg','images/chamber-3.jpg', 'images/wdd230-org.jpg'];
@@ -69,7 +70,7 @@ window.addEventListener('load', () => {
     }
     setInterval(slideShow, 2 * 3600);
 });
-
+*/
 // Pop Up
 
 
