@@ -60,10 +60,10 @@ window.addEventListener('load', () => {
     console.log('loaded items');
     const images = ['images/chamber.jpg','images/chamber-2.jpg','images/chamber-3.jpg', 'images/wdd230-org.jpg'];
     const responsive = [
-        'images/chamber200.jpg 200vw, images/chamber500.jpg 500vw, images/chamber800.jpg 800vw',
-        'images/chamber-2-200.jpg 200vw, images/chamber-2-500.jpg 500vw, images/chamber-2-800.jpg 800vw',
-        'images/chamber-3-200.jpg 200vw, images/chamber-3-500.jpg 500vw, images/chamber-3-800.jpg 800vw',
-        'images/wdd230-org200.jpg 200vw, images/wdd230-org500.jpg 500vw, images/wdd230-org800.jpg 800vw'
+        'images/chamber200.jpg 200w, images/chamber500.jpg 500w, images/chamber800.jpg 800w',
+        'images/chamber-2-200.jpg 200w, images/chamber-2-500.jpg 500w, images/chamber-2-800.jpg 800w',
+        'images/chamber-3-200.jpg 200w, images/chamber-3-500.jpg 500w, images/chamber-3-800.jpg 800w',
+        'images/wdd230-org200.jpg 200w, images/wdd230-org500.jpg 500w, images/wdd230-org800.jpg 800w'
     ];
     let indexImage = 0;
 
@@ -88,7 +88,7 @@ window.addEventListener('load', () => {
 
 console.log(now.getDay())
 
-if (now.getDay() === 1 || now.getDay() == 2 ) {
+if (now.getDay() === 1 || now.getDay() ==  ) {
     datefield.innerHTML += 
     `<p><a href='#'>
     🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
