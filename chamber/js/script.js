@@ -83,7 +83,7 @@ window.addEventListener('load', () => {
 */
 
 // ------------------------------------------------------------------------------------
-// Pop Up Banner 
+// Pop Up Banner ---> join us for the chamber meet and greet Wednesday at 7:00 p.m
 
 
 console.log(now.getDay())
