@@ -1,11 +1,14 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 /* ---------------------- Header --------------------------------*/
 header {
     background  : #2a7baa;
     color: white;
     text-align: center;
+    height: 45px;
 }
 /* ----------------------- Body -------------------*/
 main {
@@ -34,9 +37,9 @@ h1 {
 }
 /* --------------- content sections --------------------------- */
 section {
-    background-color: rgba(128, 128, 128, 0.342);
+    background-color: #80808025;
     text-align: center;
-    max-width: 700px;
+    max-width: 1250px;
     margin: 15px auto;
     border-radius: 15px;
     position: relative;
@@ -44,7 +47,28 @@ section {
 }
 .content, 
 .img-sect {
-    max-width: 700px;
     display: inline-block;
-    background-color: red;
+}
+
+
+/* ---------------   Order --------------*/
+.img-sect {
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}
+
+.content:nth-child(odd) {
+    margin-right: 10vw;
+    max-width: 400px;
+}
+.content:nth-child(even) {
+    margin-left: 10vw;
+    max-width: 400px;
+}
+
+/*------------ images  ------------------*/
+
+.img-sect img {
+    border-radius: 15px;
 }
