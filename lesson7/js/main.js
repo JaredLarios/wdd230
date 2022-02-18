@@ -9,11 +9,12 @@ function preloadImage(img) {
     }
 
     img.src = srcs;
+    img.onload = () => {img.removeAttribute('data-src')};
 }
 
 const imgOptions = {
-    threshold: 0,
-    rootMargin: '0px 0px 500px 0px',
+    threshold: 1,
+    rootMargin: '0px 0px 50px 0px',
 };
 
 const imgObserver  = new IntersectionObserver(
