@@ -23,11 +23,13 @@ main {
     border-radius: 15px;
     filter: blur(2px);
 }
-
+.banner {
+    height: 450px;
+}
 .banner-content {
     position: absolute;
     color: white;
-	top: 30%;
+	top: 35%;
     left: 0;
     right: 0;
     z-index: 2;
@@ -43,32 +45,40 @@ section {
     margin: 15px auto;
     border-radius: 15px;
     position: relative;
-    height: 300px;
 }
 .content, 
 .img-sect {
     display: inline-block;
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
 }
 
 
 /* ---------------   Order --------------*/
 .img-sect {
-    width: 400px;
-    height: 250px;
+    min-width: 300px;
+    height: 400px;
     margin: 10px;
+    object-fit: cover;
 }
 
 .content:nth-child(odd) {
     margin-right: 10vw;
-    max-width: 400px;
+    max-width: 300px;
+    transform: translateX(-50);
+    transition: .5s;
+    top: 0;
 }
 .content:nth-child(even) {
     margin-left: 10vw;
-    max-width: 400px;
+    max-width: 300px;
+    transform: translateX(50);
+    transition: .5s;
 }
 
 /*------------ images  ------------------*/
 
 .img-sect img {
     border-radius: 15px;
+    border: 1px solid #2a7baa;
+    width: 300px;
 }

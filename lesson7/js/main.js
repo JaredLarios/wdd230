@@ -2,24 +2,27 @@
 
 const iamges = document.querySelectorAll('[data-src]');
 
-function preLoadImage(img) {
-    const src = img.getAttibute("data-src");
-    if (!src) {
+function preloadImage(img) {
+    const srcs = img.getAttribute("data-src");
+    if (!srcs) {
         return;
     }
 
-    img.src = src;
+    img.src = srcs;
 }
 
-const imgOptions = {};
+const imgOptions = {
+    threshold: 0,
+    rootMargin: '0px 0px 500px 0px',
+};
 
 const imgObserver  = new IntersectionObserver(
     (entries, imgObserver) => {
         entries.forEach( entry => {
-            if (!FileSystemEntry.isIntersection) {
+            if (!entry.isIntersecting) {
                 return;
             } else {
-                preLoadImage(entry.target);
+                preloadImage(entry.target);
                 imgObserver.unobserve(entry.target);
             }
         })
