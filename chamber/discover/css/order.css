@@ -39,7 +39,6 @@
         text-align: right;
     }
     section:nth-child(4n+3){
-        background-color: blue;
         grid-column: 3/4;
     }
     section:nth-child(4n+4){
@@ -53,7 +52,6 @@
         padding-left: 15px;
     }
     section:nth-child(4n+5){
-        background-color: yellow;
         grid-column: 1/2;
     }
     /* rows */
