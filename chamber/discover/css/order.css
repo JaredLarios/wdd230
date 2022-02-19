@@ -54,6 +54,7 @@
     section:nth-child(4n+5){
         grid-column: 1/2;
     }
+
     /* rows */
     section:nth-child(2),
     section:nth-child(3){
@@ -90,5 +91,14 @@
     section:nth-child(18),
     section:nth-child(19){
         grid-row: 10/11;
+    }
+    /* text */
+    section p {
+        max-width: 650px;
+        margin: auto;
+        padding: 5px;
+    }
+    section h2 {
+        padding: 15px;
     }
 }
