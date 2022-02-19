@@ -32,7 +32,7 @@ const info ={
     myAdd : '14 st 19-35, Guatemala City',
     myEmail : 'info@gtchamber.org',
     myPhone : '(+502)43435151',
-    logo: '<img class="logo" src="images/logo.jpg" alt="logo">'
+    logo: '<img class="logo" src="https://jaredlarios.github.io/wdd230/chamber/images/logo.jpg" alt="logo">'
 }
 
 infoFoot.innerHTML = `${info.logo} <div><h2>${info.myName}</h2> <p>${info.myAdd}</p> </div> <div> <p>${info.myEmail}</p> <p>${info.myPhone}</p></div>`;
