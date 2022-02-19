@@ -56,6 +56,6 @@
     }
     section:nth-child(18),
     section:nth-child(19){
-        grid-row: 9/11;
+        grid-row: 10/11;
     }
 }
