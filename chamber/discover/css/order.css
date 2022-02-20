@@ -40,6 +40,9 @@ section:nth-child(even){
     }
     main img:hover {
         box-shadow: 0 0 30px #333;
+        width: 103%;
+        height: 103%;
+        transition: 500ms;
     }
     section:first-child{
         grid-column: 1/4;
