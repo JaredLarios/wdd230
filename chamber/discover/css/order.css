@@ -4,9 +4,11 @@ main img {
     height: 100%;
 }
 section:first-child {
+    margin-top: 15px;
     color: white;
     text-align: center;
     position: relative;
+    height: 200px;
 }
 section:first-child img {
     object-fit: cover;
@@ -16,12 +18,12 @@ section:first-child img {
 section:first-child div {
     position: absolute;
     background-color: #f4a361be;
-    border-radius: 15px;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 3px;
-
+    bottom: 0;
+    max-height: 100px;
+    margin: auto;
 }
 section:nth-child(even){
     background-color: #f4a361d8;
