@@ -55,7 +55,7 @@ section:nth-child(even){
     }
     section:first-child div {
         position: absolute;
-        background-color: #f4a361b9;
+        background-color: #f4a361ea;
         color: white;
         padding: 15px;
         border-radius: 15px;
