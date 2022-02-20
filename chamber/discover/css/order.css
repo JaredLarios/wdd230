@@ -38,6 +38,9 @@ section:nth-child(even){
         object-fit: cover;
         border-radius: 5px;
     }
+    main img:hover {
+        box-shadow: 0 0 30px #333;
+    }
     section:first-child{
         grid-column: 1/4;
         grid-row: 1/2;
