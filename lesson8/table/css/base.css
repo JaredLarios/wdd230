@@ -3,6 +3,6 @@
 * {
     font-family: 'Ubuntu', sans-serif;
 }
-td {
+td, th {
     border: solid red 1px;
 }
