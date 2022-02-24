@@ -3,6 +3,9 @@
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+header {
+	display: block;
+}
 table {
 	margin: 10px auto;
 	border: thin solid grey;
