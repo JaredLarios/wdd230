@@ -3,6 +3,29 @@
 * {
     font-family: 'Ubuntu', sans-serif;
 }
-td, th {
-    border: solid red 1px;
+table {
+	margin: 10px auto;
+	border: thin solid grey;
+	box-shadow: 0 0 30px grey;
+	border-collapse: collapse;
+}
+tr:first-child th, 
+tfoot {
+	background-color: #00a3c0;
+	color: black;
+}
+th, td {
+	padding: 7px 15px;
+	border: 1px solid grey;
+}
+th,
+.spotlight {
+	background-color: #007396;
+    color: white;
+}
+td {
+	text-align: center;
+}
+tbody tr:nth-child(even) {
+	background-color: #80808036;
 }
