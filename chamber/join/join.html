@@ -30,8 +30,8 @@
             <nav>
             <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="#"><strong>Places</strong></a></li>
-                <li><a href="#">Join Us!</a></li>
+                <li><a href="../discover/discover.html"><strong>Places</strong></a></li>
+                <li><a href="#">Join</a></li>
                 <li><a href="#">Projects</a></li>
                 <div class="social">
                     <li class="social"><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -49,19 +49,29 @@
 
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label for="">1<input type="text"></label>
-                    <label for="">2<input type="text"></label>
-                    <label for="">3<input type="text"></label>
-                    <label for="">4<input type="text"></label>
-                    <label for="">5<input type="text"></label>
+                    <label class="textEntry">First Name*<input type="text" name="fname" required></label>
+                    <label class="textEntry">Last Name*<input type="text" name="lname" required></label>
+                    <label class="textEntry">Business Position Title<input type="text" class="regulation"></label>
+                    <label class="textEntry">Email*<input type="email" name="email" placeholder="someone@example.com" required></label>
+                    <label class="textEntry">Phone*<input type="tel" name="phone" placeholder="5025555"></label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label for="">6<input type="text"></label>
-                    <label for="">7<input type="text"></label>
-                    <label for="">8<input type="text"></label>
-                    <label for="">9<input type="text"></label>
+                    <label class="textEntry">Business Name/Title*<input type="text" name="bname" required></label>
+                    
+                    <div>Membership Level</div>
+                    <label class="sbs"><input type="radio" name="level" value="gold"> Gold Membership</label>
+                    <label class="sbs"><input type="radio" name="level" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="level" value="np"> NP Membership</label>
+                    
+                    <label class="textEntry">Business Description 
+                    </label>
+                    <div id="description">
+                        <textarea name="description" cols="45" rows="10"></textarea>
+                    </div>
+                    <label class="textEntry" hidden>Date<input type="datetime" name="date" readonly></label>
                 </fieldset>
 
                 <input type="submit" value="Join to GT Chamber" class="submitBtn">
