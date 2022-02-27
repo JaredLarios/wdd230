@@ -55,11 +55,13 @@ form input.submitBtn {
     font-size: 1.2rem;
 }
 
-form input.textEntry:required {
-    background-color: #ff000050;
+form label.textEntry:required:invalid,
+.invalid {
+    background-color: #ff000065;
 }
 
-form label.textEntry input:required:valid {
+form label.textEntry input:required:valid,
+.valid {
     background-color: #33ff003d;
 }
 
