@@ -15,7 +15,9 @@ form legend {
     padding: 0 0.5rem;
 }
 
-form label.textEntry, form div {
+form label.textEntry, 
+form div,
+form span {
     display: block;
     padding-top: 1rem;
     color: #E76F51;
