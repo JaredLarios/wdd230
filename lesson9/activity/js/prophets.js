@@ -16,13 +16,17 @@ fetch(requestURL)
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
+    let numberPresident = '';
+    numberPresident = prophet.order;
+
+    numberPresident += numberPresident == 1 || numberPresident == 11 ? 'st' : ( numberPresident == 2 || numberPresident == 22 ? 'nd' : (numberPresident == 3 || numberPresident == 33) ? 'rd' : 'th' )
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
+    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${numberPresident} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
