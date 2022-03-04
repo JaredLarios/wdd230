@@ -1,3 +1,4 @@
+/* --- API Cards Information ----*/
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
@@ -40,3 +41,14 @@ fetch(requestURL)
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
   }
+
+/*---- footer ----*/
+const copyRight = document.querySelector("footer");
+
+let currentYear = new Date().getFullYear();
+copyRight.innerHTML = `<p>&copy ${currentYear} | E. Jared Larios | 🏛 BYU-Idaho | WDD 230</p>`;
+
+let updateDate = document.lastModified;
+copyRight.innerHTML += `<p>Last Updated: ${updateDate}<p>`;
+
+console.log(copyRight);
