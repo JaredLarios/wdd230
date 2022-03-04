@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
 
+header {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 2.6rem;
 }
 h2 {
     font-family: 'Zen Kaku Gothic New', sans-serif;
@@ -14,6 +19,11 @@ span {
     text-align: center;
 }
 
+main {
+    box-shadow: 0 0 15px rgba(119, 119, 119, 0.534);
+    margin: 1.2rem;
+}
+
 main .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -24,7 +34,7 @@ main section {
     padding: 0.35rem;
     padding-bottom: 15px;
     background-color: rgba(0, 168, 146, 0.144);
-    /*border: 1px solid #bbb;*/
+    border: 1px solid #bbb;
     display: flex;
     flex-direction: column;
     align-items: center;
