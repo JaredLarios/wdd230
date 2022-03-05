@@ -6,17 +6,20 @@ const myDirectory = {
     
     test: (data) => console.table(data),
     
-    clear: ()=> dom.innerHTML='',
+    clear: ()=> dom.innerHTML='<table class="list"></table>',
 
     displayInfoList: (data) => {
+        const domList = document.querySelector('.list')
 
-       dom.innerHTML += `
-                    <ul class='row'>
-                        <li><h2>${data.name}<h2></li>
-                        <li>${data.address}</li>
-                        <li>${data.phone}</li>
-                        <li><a href='${data.url}'>${data.url.slice(8)}<a></li>        
-                    </ul>          
+        /*make conditionals the some open and close td for the screen size*/
+
+       domList.innerHTML += `
+                    <tr class='row'>
+                        <td><h2>${data.name}<h2></td>
+                        <td>${data.address}</td>
+                        <td>${data.phone}</td>
+                        <td><a href='${data.url}'>${data.url.slice(8)}<a></td>        
+                    </tr>          
        `
     },
 
