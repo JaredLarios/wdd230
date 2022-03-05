@@ -3,30 +3,43 @@ main {
 }
 
 /*--- Banner ---*/
-main.banner-directory {
-
-
-    background-color: red;
+.banner-directory {
+    margin: 15px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 350px;
 }
 
 .banner-directory img {
     width: 100%;
     height: 350px;
-
+    
     object-fit: cover;
+    border-radius: 15px;
+}
+.banner-directory .banner-info {
+    position: absolute;
+    background-color: #f4a361be;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100px;
+    margin: auto;
 }
 
-/* --- Icons style --- */
+/* --- Buttons of Order --- */
 .buttons {
     margin: auto;
     max-width: 150px;
 }
 
 .buttons .fa {
-    padding: 15px;
+    padding: 13px;
     margin: 0;
 
-    border: solid 1px ;
+    border: solid 1px;
     border-radius: 15px;
     color: #ff704d;
 }
@@ -40,12 +53,19 @@ main.banner-directory {
 /*--- Cards - Grid ---*/
 .card {
     padding: 2.5rem;
-    margin: 15px;
+    margin: 15px 5px;
     text-align: center;
 
     background-color: #f4a361d8;
     border-radius: 15px;
     color: white;
+
+    max-width: 400px;
+}
+
+.business-cards .card img {
+    border-radius: 10px;
+    width: 40%;
 }
 
 /* -- List -- */
