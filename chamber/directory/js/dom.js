@@ -16,7 +16,19 @@ const myDirectory = {
        `
 
        dom.appendChild(row);
-    }
+    },
+
+    displayInfoGallery: (data) => {
+        let row =  document.createElement('div');
+ 
+        row.innerHTML = `<img src='${data.photo}' alt='${data.name}'>
+                         <span>${data.address}</span><br>
+                         <span>${data.phone}</span><br>
+                         <span>${data.url}</span><br>                  
+        `
+ 
+        dom.appendChild(row);
+     }
 
 }
 
