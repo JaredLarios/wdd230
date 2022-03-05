@@ -19,20 +19,29 @@ fetch(url)
 
         if (medium.matches) {
             myDirectory.clear();
-            business.forEach(e => myDirectory.displayInfoList(e))
+            business.forEach(e => myDirectory.displayInfoList(e));
+            list.classList.add('fa-clicked');
+            grid.classList.remove('fa-clicked');
+
         }
         else {
             myDirectory.clear();
-            business.forEach(e => myDirectory.displayInfoGallery(e))
+            business.forEach(e => myDirectory.displayInfoGallery(e));
+            grid.classList.add('fa-clicked');
+            list.classList.remove('fa-clicked');
         }
 
         list.addEventListener('click',() =>{
             myDirectory.clear();
-            business.forEach(e => myDirectory.displayInfoList(e))
+            business.forEach(e => myDirectory.displayInfoList(e));
+            list.classList.add('fa-clicked');
+            grid.classList.remove('fa-clicked');
         })
         grid.addEventListener('click', ()=>{
             myDirectory.clear();
-            business.forEach(e => myDirectory.displayInfoGallery(e))
+            business.forEach(e => myDirectory.displayInfoGallery(e));
+            grid.classList.add('fa-clicked');
+            list.classList.remove('fa-clicked');
         })
     } 
 )

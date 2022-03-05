@@ -2,6 +2,7 @@ main {
     display: block;
 }
 
+/*--- Banner ---*/
 main.banner-directory {
 
 
@@ -15,6 +16,28 @@ main.banner-directory {
     object-fit: cover;
 }
 
+/* --- Icons style --- */
+.buttons {
+    margin: auto;
+    max-width: 150px;
+}
+
+.buttons .fa {
+    padding: 15px;
+    margin: 0;
+
+    border: solid 1px ;
+    border-radius: 15px;
+    color: #ff704d;
+}
+
+.buttons .fa-clicked {
+    color: white;
+    background-color: #f4a361;
+    border-color: #ff704d;
+}
+
+/*--- Cards - Grid ---*/
 .card {
     padding: 2.5rem;
     margin: 15px;
@@ -24,3 +47,5 @@ main.banner-directory {
     border-radius: 15px;
     color: white;
 }
+
+/* -- List -- */
