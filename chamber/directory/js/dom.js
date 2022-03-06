@@ -1,6 +1,4 @@
 const dom = document.querySelector('.buss-cards')
-const small = window.matchMedia("(max-width: 34.5em)")
-const medium = window.matchMedia("(min-width: 34.5em) and (max-width: 47.7em)")
 const large = window.matchMedia("(min-width: 47.8em)")
 
 const myDirectory = {

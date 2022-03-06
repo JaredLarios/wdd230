@@ -4,6 +4,7 @@ import myDirectory from "./dom.js";
 const list = document.querySelector('.fa-th-list')
 const grid = document.querySelector('.fa-th')
 const medium = window.matchMedia("(min-width: 34.5em) and (max-width: 47.7em)")
+const large = window.matchMedia("(min-width: 47.8em)")
 
 /*--- Json file from github ---*/
 const url = "https://jaredlarios.github.io/wdd230/chamber/directory/data/directory.json"
