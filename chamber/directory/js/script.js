@@ -7,6 +7,7 @@ const medium = window.matchMedia("(min-width: 34.5em) and (max-width: 47.7em)")
 
 /*--- Json file from github ---*/
 const url = "https://jaredlarios.github.io/wdd230/chamber/directory/data/directory.json"
+const dom = document.querySelector('.buss-cards')
 
 /* -- fetch the url and run the myDirectory functions -- */
 
@@ -19,6 +20,7 @@ fetch(url)
 
         if (medium.matches) {
             myDirectory.clear();
+            dom.innerHTML= '<table class="table"><tbody class="tab"></tbody></table>'
             business.forEach(e => myDirectory.displayInfoList(e));
             list.classList.add('fa-clicked');
             grid.classList.remove('fa-clicked');
@@ -33,6 +35,7 @@ fetch(url)
 
         list.addEventListener('click',() =>{
             myDirectory.clear();
+            dom.innerHTML = '<table class="table"><tbody class="tab"></tbody></table>'
             business.forEach(e => myDirectory.displayInfoList(e));
             list.classList.add('fa-clicked');
             grid.classList.remove('fa-clicked');
