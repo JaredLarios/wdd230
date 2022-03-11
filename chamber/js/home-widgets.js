@@ -44,9 +44,12 @@ fetch(url)
             
             const mphToKmh = (mph) => Math.round((mph * 1.609344), -2);
 
+            // --- Getting the information from the API  ---
             let kel = jsObject.main.temp;
             let far = kelvinToFar(kel)
             let mph = jsObject.wind.speed;
+            const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+            const desc = jsObject.weather[0].description;
             
             if (far >= 50 && mph > 3.0) {
                 
@@ -60,6 +63,9 @@ fetch(url)
                 dSel('caption').textContent = "test";
                 dSel('w-speed').textContent = kmh;
                 dSel('w-chill').textContent = wcll;
+                dSel('caption').textContent = desc;
+                dSel('weather-icon').setAttribute('src', iconsrc);
+                dSel('weather-icon').setAttribute('alt', desc);
 
             }
         }
