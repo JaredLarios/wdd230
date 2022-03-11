@@ -1,5 +1,3 @@
-///  modelus 
-import weather from "./windchill.js"
 
 /// selctors
 const menuBars = document.querySelector(".menu-icon")
@@ -20,18 +18,18 @@ menuBars.addEventListener('click', () => {
 
 /* remove menu responsive*/
 window.onresize = () => {
-    if (window.innerWidth > 700){
+    if (window.innerWidth > 700) {
         menu.classList.remove('responsive');
         row.classList.remove('fa-chevron-up');
     };
 };
 
 // Chamber's info footer
-const info ={
-    myName : 'GT Chamber',
-    myAdd : '14 st 19-35, Guatemala City',
-    myEmail : 'info@gtchamber.org',
-    myPhone : '(+502)43435151',
+const info = {
+    myName: 'GT Chamber',
+    myAdd: '14 st 19-35, Guatemala City',
+    myEmail: 'info@gtchamber.org',
+    myPhone: '(+502)43435151',
     logo: '<img class="logo" src="https://jaredlarios.github.io/wdd230/chamber/images/logo.jpg" alt="logo">'
 }
 
@@ -44,43 +42,14 @@ foot.innerHTML = `<p>${lastMod(new Date().getFullYear(), document.lastModified)}
 // date 
 const datefield = document.querySelector(".date");
 const now = new Date();
-const fulldate = new 
+const fulldate = new
 
-Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
-);
+    Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+        now
+    );
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
-//-------------------------------------------------------------------------------------
+datefield.innerHTML = `<em>${fulldate}</em>`
 
-/* Slide Show*/
-/* Disabled for Week 7 review
-
-window.addEventListener('load', () => {
-    console.log('loaded items');
-    const images = ['images/chamber.jpg','images/chamber-2.jpg','images/chamber-3.jpg', 'images/wdd230-org.jpg'];
-    const responsive = [
-        'images/chamber200.jpg 200w, images/chamber500.jpg 500w, images/chamber800.jpg 800w',
-        'images/chamber-2-200.jpg 200w, images/chamber-2-500.jpg 500w, images/chamber-2-800.jpg 800w',
-        'images/chamber-3-200.jpg 200w, images/chamber-3-500.jpg 500w, images/chamber-3-800.jpg 800w',
-        'images/wdd230-org200.jpg 200w, images/wdd230-org500.jpg 500w, images/wdd230-org800.jpg 800w'
-    ];
-    let indexImage = 0;
-
-    const slideShow = () => { 
-
-        document.querySelector('#slide').setAttribute('src',images[indexImage])
-        document.querySelector('#slide').setAttribute('srcset', responsive[indexImage])
-
-        if (indexImage < 3) {
-            indexImage++;
-        } else {
-            indexImage = 0; 
-        }
-    }
-    setInterval(slideShow, 2 * 3600);
-});
-*/
 
 // ------------------------------------------------------------------------------------
 // Pop Up Banner ---> join us for the chamber meet and greet Wednesday at 7:00 p.m
@@ -88,9 +57,9 @@ window.addEventListener('load', () => {
 
 console.log(now.getDay())
 
-if (now.getDay() === 1 || now.getDay() == 2 ) {
-    datefield.innerHTML += 
-    `<p><a href='#'>
+if (now.getDay() === 1 || now.getDay() == 2) {
+    datefield.innerHTML +=
+        `<p><a href='#'>
     🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
     </a></p>`;
     menu.classList.toggle('responsive-2');
@@ -98,7 +67,3 @@ if (now.getDay() === 1 || now.getDay() == 2 ) {
 }
 
 // ----------------------------------------------------------------------------------------------
-
-/* Weather */
-
-const init = weather.display()
