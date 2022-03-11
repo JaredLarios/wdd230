@@ -1,3 +1,5 @@
+const url = 'http://api.openweathermap.org/data/2.5/weather?q=Guatemala&APPID=7f554438855760396460305b4e229983'
+
 /* Slide Show*/
 
 window.addEventListener('load', () => {
@@ -26,7 +28,6 @@ window.addEventListener('load', () => {
 });
 
 /* wind chill */
-const url = 'http://api.openweathermap.org/data/2.5/weather?q=Guatemala&APPID=7f554438855760396460305b4e229983'
 
 const dSel = (e) => document.getElementById(e);
 const windChill = (temp, speed) => {
