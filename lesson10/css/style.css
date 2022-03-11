@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(0, 0, 102);
+}
+
+p {
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 65vw;
+}
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 25vw;
+    padding: 15px 0 0 0;
+}
+
+main {
+    max-width: 70vw;
+    margin: auto;
+    background-color: rgba(68, 252, 252, 0.274);
+    padding: 0 15px 15px 10px;
+    border-radius: 10px;
+}
