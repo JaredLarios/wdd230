@@ -1,33 +1,3 @@
-/* wind chill */
-const dSel = (e) => document.getElementById(e);
-const windChill = (temp, speed) => {
-    return (35.74 + 0.6215 * temp) - 35.75 * (speed ** 0.16) + 0.4275 * (temp * speed ** 0.16);
-};
-
-const farToCels = (far) => Math.round(((far - 32) * 5 / 9), -2);
-const mphToKmh = (mph) => Math.round((mph * 1.609344), -2);
-
-const temp = dSel('temp')
-const clds = dSel('clouds')
-const wSpeed = dSel('w-speed')
-const wChill = dSel('w-chill')
-
-const far = 45;
-const mph = 5;
-
-if (far <= 50 && mph > 3.0) {
-
-    let cel = farToCels(far);
-    let kmh = mphToKmh(mph);
-    let wcll = Math.round(windChill(far, mph), -1);
-    console.log(wcll)
-
-    temp.textContent = cel;
-    wSpeed.textContent = kmh;
-    wChill.textContent = wcll;
-
-}
-
 /* Slide Show*/
 
 window.addEventListener('load', () => {
@@ -54,3 +24,43 @@ window.addEventListener('load', () => {
     }
     setInterval(slideShow, 2 * 3600);
 });
+
+/* wind chill */
+const url = 'http://api.openweathermap.org/data/2.5/weather?q=Guatemala&APPID=7f554438855760396460305b4e229983'
+
+const dSel = (e) => document.getElementById(e);
+const windChill = (temp, speed) => {
+    return (35.74 + 0.6215 * temp) - 35.75 * (speed ** 0.16) + 0.4275 * (temp * speed ** 0.16);
+};
+
+fetch(url)
+    .then((response) => response.json())
+    .then(
+        (jsObject) => {
+            console.log(jsObject)
+            const farToCels = (far) => Math.round(((far - 32) * 5 / 9), -2);
+            const kelvinToFar = (kel) => Math.round(((kel - 273.15) * 9/5 + 32), -2);
+
+            
+            const mphToKmh = (mph) => Math.round((mph * 1.609344), -2);
+
+            let kel = jsObject.main.temp;
+            let far = kelvinToFar(kel)
+            let mph = jsObject.wind.speed;
+            
+            if (far >= 50 && mph > 3.0) {
+                
+                let cel = farToCels(far);
+                console.log(cel)
+                let kmh = mphToKmh(mph);
+                let wcll = Math.round(windChill(far, mph), -1);
+                console.log(wcll)
+
+                dSel('temp').textContent = cel+'°C';
+                dSel('caption').textContent = "test";
+                dSel('w-speed').textContent = kmh;
+                dSel('w-chill').textContent = wcll;
+
+            }
+        }
+    )
