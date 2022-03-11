@@ -289,8 +289,25 @@ height: 100%;
 
 /* ------------------ Weather ---------------*/
 
+.weather-card img {
+	filter: blur(.7px);
+}
+
 .weather {
 	top: 0;
 	border-radius: 15px;
-	background-color: #e76f51a1;
+	/*background-color: #e76f51a1;*/
+}
+
+.weather figure {
+	display: flex;
+	max-width: 160px;
+	min-width: 100px;
+	margin: auto;
+}
+
+.weather img {
+	filter: none;
+	max-height: 60px;
+	max-width: 120px;
 }
