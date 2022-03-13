@@ -1,4 +1,4 @@
-const url = 'http://api.openweathermap.org/data/2.5/weather?q=Guatemala&APPID=7f554438855760396460305b4e229983'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Guatemala&APPID=7f554438855760396460305b4e229983'
 /* wind chill */
 
 const dSel = (e) => document.getElementById(e);
