@@ -1,5 +1,5 @@
 const dom = document.querySelector('.buss-cards')
-const large = window.matchMedia("(min-width: 47.8em)")
+
 
 const myDirectory = {
     
@@ -8,29 +8,31 @@ const myDirectory = {
     test: (data) => console.table(data),
     
     clear: ()=> dom.innerHTML= '',
-
+    
     displayInfoList: (data) => {
         const domList = document.querySelector('.tab')
         const table = document.querySelector('table')
-
+        
         /*make conditionals the some open and close td for the screen size*/
-
+        
         let column = ''
         let column2 = ''
 
-        if (large.matches){column = '</td><td>'; column2 = '</td><td>'; table.classList.add('.tab-large')}
+
+        if (window.innerWidth > 700) {column = '</td><td>'; column2 = '</td><td>'; table.classList.add('.tab-large')}
         else {column='<br>'; table.classList.remove('.tab-large')}
 
 
-       domList.innerHTML += `
-                    <tr class='row'>
-                        <td><h2>${data.name}</h2>
-                        ${column2}${data.address}
+
+        domList.innerHTML += `
+        <tr class='row'>
+        <td><h2>${data.name}</h2>
+        ${column2}${data.address}
                         ${column}${data.phone}
                         ${column}<a href='${data.url}'>${data.url.slice(8)}<a></td>        
                     </tr>          
-       `
-    },
+                    `
+                },
 
     displayInfoGallery: (data) => {
         let card =  document.createElement('div');
