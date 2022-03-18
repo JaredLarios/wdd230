@@ -1,165 +1,206 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Jared Larios">
-        <meta name="description" content="Updated and accurate information about the Chamber of Commers in Guatemala. The meetings, projects, training and more for small, middle and big business.">
-        
-        <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-        <link rel="shortcut icon" href="../favicon.ico">
-        <link rel="stylesheet" href="../css/base.css">
-        <link rel="stylesheet" href="../css/medium.css">
-        <link rel="stylesheet" href="../css/large.css">
-        
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/large.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jared Larios" />
+    <meta
+      name="description"
+      content="Updated and accurate information about the Chamber of Commers in Guatemala. The meetings, projects, training and more for small, middle and big business."
+    />
 
-        <title>Join Now | GT Chamber</title>
-    </head>
-    <body>
-        <div class="pop"></div>
-        <div class="bar">
-            <div class="pop-up" ></div>
-            <header>
-                <img class="logo-header" srcset="../images/logo-small.webp, ../images/logo.webp 3x, ../images/logo-medium.webp 2x"
-                src="../images/logo.jpg" alt="logo">
-                <h1>GT Chamber</h1>
-                <i class="menu-icon fas fa-bars" style="font-size: 2.2rem;"></i>
-            </header>
-            <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../discover/discover.html"><strong>Places</strong></a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="../directory/directory.html">Directory</a></li>
-                <div class="social">
-                    <li class="social"><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li class="social"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li class="social"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                </div>
-            </ul>
-            <div class="pop-up" ></div>
-            <span class="date"></span>
-            </nav>
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+    />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/medium.css" />
+    <link rel="stylesheet" href="../css/large.css" />
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <title>Join Now | GT Chamber</title>
+  </head>
+  <body>
+    <div class="pop"></div>
+    <div class="bar">
+      <div class="pop-up"></div>
+      <header>
+        <img
+          class="logo-header"
+          srcset="
+            ../images/logo-small.webp,
+            ../images/logo.webp        3x,
+            ../images/logo-medium.webp 2x
+          "
+          src="../images/logo.jpg"
+          alt="logo"
+        />
+        <h1>GT Chamber</h1>
+        <i class="menu-icon fas fa-bars" style="font-size: 2.2rem"></i>
+      </header>
+      <nav>
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li>
+            <a href="../discover/discover.html"><strong>Places</strong></a>
+          </li>
+          <li><a href="#">Join</a></li>
+          <li><a href="../directory/directory.html">Directory</a></li>
+          <div class="social">
+            <li class="social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </div>
+        </ul>
+        <div class="pop-up"></div>
+        <span class="date"></span>
+      </nav>
+    </div>
+    <main>
+      <div id="slider">
+          <figure class="banner-img">
+            <img src="../images/chamber.jpg" alt="banner" id="slide" sizes="100vw"/>
+          </figure>
+        <div class="mini-banner">
+          <h2>Join to us Now!</h2>
+          <p>Fill the form and be part or the best chamber in Guatemala.</p>
         </div>
-        <main>
+    </div>
+      <form action="thankyou.html" method="get">
+        <fieldset>
+          <legend>Contact Information</legend>
 
-            <form action="thankyou.html" method="get">
+          <label class="textEntry">
+            First Name*
+            <input type="text" name="fname" required />
+          </label>
 
-                <fieldset>
-                    <legend>Contact Information</legend>
+          <label class="textEntry">
+            Last Name*
+            <input type="text" name="lname" required />
+          </label>
 
-                    <label class="textEntry">
-                        First Name*
-                        <input type="text" name="fname" required>
-                    </label>
+          <label class="textEntry">
+            Business Position Title
+            <input type="text" class="regulation" />
+          </label>
 
-                    <label class="textEntry">
-                        Last Name*
-                        <input type="text" name="lname" required>
-                    </label>
+          <span id="posErr" class="textEntry"></span>
 
-                    <label class="textEntry">
-                        Business Position Title
-                        <input type="text" class="regulation">
-                    </label>
+          <label class="textEntry">
+            Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@example.com"
+              required
+            />
+          </label>
 
-                    <span id="posErr" class="textEntry"></span>
+          <label class="textEntry">
+            Phone*
+            <input type="tel" name="phone" placeholder="5025555" required />
+          </label>
+        </fieldset>
 
+        <fieldset>
+          <legend>Business Information</legend>
 
-                    <label class="textEntry">
-                        Email*
-                        <input type="email" name="email" placeholder="someone@example.com" required>
-                    </label>
+          <label class="textEntry">
+            Business Name/Title*
+            <input type="text" name="bname" required />
+          </label>
 
-                    <label class="textEntry">
-                        Phone*
-                        <input type="tel" name="phone" placeholder="5025555" required>
-                    
-                    </label>
-                </fieldset>
+          <div>Membership Level</div>
 
-                <fieldset>
-                    <legend>Business Information</legend>
+          <label class="sbs">
+            <input type="radio" name="level" value="gold" />
+            Gold Membership
+          </label>
 
-                    <label class="textEntry">
-                        Business Name/Title*
-                        <input type="text" name="bname" required>
-                    </label>
-                    
-                    <div>Membership Level</div>
+          <label class="sbs">
+            <input type="radio" name="level" value="silver" />
+            Silver Membership
+          </label>
 
-                    <label class="sbs">
-                        <input type="radio" name="level" value="gold">
-                         Gold Membership
-                    </label>
+          <label class="sbs">
+            <input type="radio" name="level" value="bronze" />
+            Bronze Membership
+          </label>
 
-                    <label class="sbs">
-                        <input type="radio" name="level" value="silver">
-                         Silver Membership
-                    </label>
+          <label class="sbs">
+            <input type="radio" name="level" value="np" />
+            NP Membership
+          </label>
 
-                    <label class="sbs">
-                        <input type="radio" name="level" value="bronze"> 
-                        Bronze Membership
-                    </label>
+          <label for="description" class="textEntry">
+            Business Description
+            <div id="description">
+              <textarea name="description" cols="45" rows="10"></textarea>
+            </div>
+          </label>
 
-                    <label class="sbs">
-                        <input type="radio" name="level" value="np"> 
-                        NP Membership
-                    </label>
+          <label class="textEntry" id="date" hidden>
+            Date
+            <input type="datetime" name="date" readonly />
+          </label>
+        </fieldset>
 
-                    
-                    <label for="description" class="textEntry">
-                        Business Description 
-                        <div id="description">
-                            <textarea name="description" cols="45" rows="10"></textarea>
-                        </div>
-                    </label>
+        <input type="submit" value="Join to GT Chamber" class="submitBtn" />
+      </form>
 
-                    <label class="textEntry" id="date" hidden>
-                        Date
-                        <input type="datetime" name="date" readonly>
-                    </label>
-
-                </fieldset>
-
-                <input type="submit" value="Join to GT Chamber" class="submitBtn">
-
-            </form>
-            
-            <section class="service-lvl-info">
-                <h2>Service Level Benefits</h2>
-                <h3>Gold Membership - Q3,000/month</h3>
-                <p>
-                    The <strong>Gold Membership</strong> have benefits of spolitght your webpage on our Home Page, free meeting tickets for our events and couching for your business
-                    for each payed month. You'll recieve special information for oportunity of events where you can promote your business.
-                </p>
-                <h3>Silver Membership - Q2,000/month</h3>
-                <p>
-                    The <strong>Silver Membership</strong> have benefits of free meeting tickets for our events and 35% discounts couching for your business
-                    for each payed month. You'll recieve special information for oportunity of events where you can promote your business.
-                </p>
-                <h3>Bronze Membership - Q1,000/month</h3>
-                <p>
-                    The <strong>Bronze Membership</strong> have benefits of 35% discounts couching for your business
-                    for each payed month. You'll recieve special information for oportunity of events where you can promote your business.
-                </p>
-                <h3>Non Profit Organizations Membership - FREE</h3>
-                <p>
-                    The <strong>NP Membership or Non Profit Organizations Membership</strong> have benefits of 15% discounts couching for your business
-                    for each payed month. You'll recieve special information for oportunity of events where you can promote your business.
-                </p>
-            </section>
-
-        </main>
-        <footer>
-            <div id="info"></div>
-            <div id="mod"></div>
-        </footer>
-        <script type="module" src="../js/script.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+      <section class="service-lvl-info">
+        <h2>Service Level Benefits</h2>
+        <h3>Gold Membership - Q3,000/month</h3>
+        <p>
+          The <strong>Gold Membership</strong> have benefits of spolitght your
+          webpage on our Home Page, free meeting tickets for our events and
+          couching for your business for each payed month. You'll recieve
+          special information for oportunity of events where you can promote
+          your business.
+        </p>
+        <h3>Silver Membership - Q2,000/month</h3>
+        <p>
+          The <strong>Silver Membership</strong> have benefits of free meeting
+          tickets for our events and 35% discounts couching for your business
+          for each payed month. You'll recieve special information for
+          oportunity of events where you can promote your business.
+        </p>
+        <h3>Bronze Membership - Q1,000/month</h3>
+        <p>
+          The <strong>Bronze Membership</strong> have benefits of 35% discounts
+          couching for your business for each payed month. You'll recieve
+          special information for oportunity of events where you can promote
+          your business.
+        </p>
+        <h3>Non Profit Organizations Membership - FREE</h3>
+        <p>
+          The
+          <strong>NP Membership or Non Profit Organizations Membership</strong>
+          have benefits of 15% discounts couching for your business for each
+          payed month. You'll recieve special information for oportunity of
+          events where you can promote your business.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div id="info"></div>
+      <div id="mod"></div>
+    </footer>
+    <script type="module" src="../js/script.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -2,6 +2,8 @@ main {
     display: block;
 }
 
+/* --- Form ---*/
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #E76F51;
