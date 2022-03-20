@@ -6,9 +6,9 @@
         display: flex;
         position: relative;
         top: 0.3rem;
-        left: 54%;
+        left: 47%;
         right: 0;
-        width: 25%;
+        width: 35%;
         z-index: 3;
     }
 
@@ -77,7 +77,7 @@
     }
     .social li{
         margin-left: 5px;
-        border-radius: 90%;
+        background-color: #ffffff00;
     }
     .content{
         height: 270px;
