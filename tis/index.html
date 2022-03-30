@@ -18,20 +18,30 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
     />
 
-    <link rel="stylesheet" href="css/base.css">
-
+    <link rel="stylesheet" href="css/base.css" />
 
     <title>Home | TIS Hotels</title>
   </head>
   <body>
     <header class="">
-        <div class="logo-side">
-            <figure>
-                <img src="images/logo.png" alt="tis logo" >
-            </figure>
-            <h2>TIS</h2>
-        </div>
-        <span class="menu-bars"><i class="fas fa-bars"></i></span>
+      <div class="logo-side">
+        <picture>
+          <!--
+          <img
+            class="logo-header"
+            srcset="
+            images/logo.jpg,
+              images/logo.webp        3x,
+              images/logo-medium.webp 2x"
+              src="images/logo.jpg"
+              alt="logo"
+              />
+             -->
+            <img src="images/logo.png" alt="logo">
+        </picture>
+        <h2>TIS</h2>
+      </div>
+      <span class="menu-bars"><i class="fas fa-bars"></i></span>
     </header>
     <nav class="menu">
       <ul>
@@ -44,16 +54,10 @@
     <main>
       <section class="main-banner">
         <picture>
-            <img
-            class="logo-header"
-            srcset="
-              images/logo-small.webp,
-              images/logo.webp        3x,
-              images/logo-medium.webp 2x
-            "
-            src="images/logo.jpg"
-            alt="logo"
-          />
+          <img srcset="images/banner-500.jpg 320w,
+             images/banner-700.jpg 480w,
+             images/banner-1000.jpg 800w"
+            src="images/banner-500.jpg" alt="banner">
         </picture>
         <div class="tittle-banner">
           <h1>Temple Inn and Suites</h1>
@@ -69,40 +73,64 @@
       <section class="content">
         <div>
           <h2>All is better in familiar vacations</h2>
-          <p>You can come and enjoy our service while you do a spiritual trip to the temple.</p>
+          <p>
+            You can come and enjoy our service while you do a spiritual trip to
+            the temple.
+          </p>
         </div>
         <figure class="vacations">
-          <img src="images/placeholder.jpg" data-src="images/vacations.jpg" alt="familiar vacations" />
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/vacations.jpg"
+            alt="familiar vacations"
+          />
         </figure>
       </section>
       <section class="content">
         <figure class="card-img">
-          <img src="images/placeholder.jpg" data-src="images/temple.jpg" alt="card temple" />
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/temple.jpg"
+            alt="card temple"
+          />
         </figure>
         <div class="card-banner">
           <h2>We are near your favorite temples!</h2>
-          <p>You can visit your favorite temples and enjoy our family search rooms</p>
+          <p>
+            You can visit your favorite temples and enjoy our family search
+            rooms
+          </p>
         </div>
       </section>
       <section class="content">
         <figure class="card-img">
-          <img src="images/placeholder.jpg" data-src="images/subscrtion.jpg" alt="card subscrtion" />
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/subscrtion.jpg"
+            alt="card subscrtion"
+          />
         </figure>
         <div class="card-banner">
           <h2>Don't have a subscrtion?</h2>
-          <p>Don't have a subscrtion? You can enjoy our FREE SUBSCRIPTION SERVICES!</p>
+          <p>
+            Don't have a subscrtion? You can enjoy our FREE SUBSCRIPTION
+            SERVICES!
+          </p>
         </div>
       </section>
       <section class="content">
-        <img src="images/placeholder.jpg" data-src="images/subscribe.jpg" alt="card subscribe" />
+        <img
+          src="images/placeholder.jpg"
+          data-src="images/subscribe.jpg"
+          alt="card subscribe"
+        />
         <div class="mini-banner join">
           <h2>Get a subscrtion Now!</h2>
           <button>Subscribe</button>
         </div>
       </section>
     </main>
-    <footer>
-    </footer>
+    <footer></footer>
     <script src="js/script.js"></script>
   </body>
 </html>
