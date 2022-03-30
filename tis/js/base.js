@@ -1,16 +1,20 @@
+/* Page functionality */
+const menuBar = document.querySelector("header")
+const menu = document.querySelector(".menu")
+
 const Base = {
     scroll: () => {
         window.addEventListener("scroll" , () => {
-            const menuBar = document.querySelector("header")
-            menuBar.classList.toggle("show-color", window.scrollY> 200) 
+            menuBar.classList.toggle("show-color", window.scrollY > 200) 
         })
     }, 
     menu: () => {
         const menuBars = document.querySelector(".menu-bars")
 
         menuBars.addEventListener("click", () => {
-            const menu = document.querySelector("nav")
-
+            if (window.scrollY < 200) {
+                menuBar.classList.toggle("show-color")
+            }
             menu.classList.toggle("show-menu")
         })
     }
