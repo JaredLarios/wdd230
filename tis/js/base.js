@@ -50,9 +50,36 @@ const Base = {
                 })
             }, imgOptions);
 
-            images.forEach(image => {
+        images.forEach(image => {
             imgObserver.observe(image);
         })
+    },
+    footer: () => {
+        const foot = document.querySelector("footer")
+
+        let time = new Date
+
+        foot.innerHTML = `
+        <div class="footer-content">
+            <img src="images/logo.png">
+            <div class="info">
+                <h2>Temple Inn & Suites</h2>
+                <p>Email: info@tis.org</p>
+                <p>Phone: 424535789</p>
+            </div>
+            <ul>
+            <li><a href="temples/locations.html">Locations</a></li>
+            <li><a href="reservations/reserve.html">Reservations</a></li>
+            <li><a href="services/serveices.html">Services</a></li>
+            <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+
+        <p class="credits">
+            <span>&copy ${time.getFullYear()} | E. Jared Larios | BYU-Idaho | WDD230</span>
+        </p>
+
+        `
     }
 }
 export default Base

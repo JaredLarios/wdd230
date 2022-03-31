@@ -267,3 +267,42 @@ main .content:nth-child(5) div {
     color: white;
     background-color: var(--bg-main-color);
 }
+
+/* ------ Footer -------*/
+
+footer {
+    border-top: var(--bg-sec-color) 1px solid;
+}
+
+footer div.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer div img {
+    width: 200px;
+}
+
+footer div.info {
+    margin: auto;
+}
+
+footer ul {
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+footer .credits {
+    text-align: center;
+}
