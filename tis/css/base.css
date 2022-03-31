@@ -200,12 +200,25 @@ main .content:nth-child(3) img{
     border-radius: 10px 10px 0 0 ;
 }
 
+main .content:nth-child(3) figure {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+main .content:nth-child(3) img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* third item */
 
 main .content:nth-child(4){
     display: flex;
     flex-direction: row;
     margin: 15px 0;
+    margin: 15px;
 }
 
 main .content:nth-child(4) div{
@@ -216,7 +229,6 @@ main .content:nth-child(4) div{
 }
 
 main .content:nth-child(4) figure{
-    border-radius: 10px 0 0 10px;
     width: 450px;
     height: 400px;
 }
@@ -225,6 +237,7 @@ main .content:nth-child(4) img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px 0 0 10px;
 }
 
 /* Subscrive Now */
@@ -237,11 +250,20 @@ main .content:nth-child(5) img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: blur(0.7pt);
+    border-radius: 10px;
 }
 
 main .content:nth-child(5) div {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
     right: 0;
+    line-height: 50px;
+    border-radius: 15px;
+    max-width: 350px;
+    margin: auto;
+
+    color: white;
+    background-color: var(--bg-main-color);
 }
