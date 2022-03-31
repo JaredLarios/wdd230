@@ -159,6 +159,7 @@ main .main-banner .socials span {
 
 main .content {
     text-align: center;
+    margin: 55px 0;
 }
 
 /*
@@ -175,7 +176,7 @@ main .content:nth-child(2) div{
     border-style: solid none solid none;
 
     padding: 35px;
-    margin: 15px;
+    margin: 45px 15px;
 }
 main .content:nth-child(2) h2,
 main .content:nth-child(2) p{
