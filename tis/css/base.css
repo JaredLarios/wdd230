@@ -184,6 +184,12 @@ main .content:nth-child(2) p{
     margin: 25px auto;
 }
 
+main .content:nth-child(2) img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
 /* second item*/
 main .content:nth-child(3) {
     margin: 35px auto;

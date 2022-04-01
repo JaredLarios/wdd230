@@ -54,6 +54,12 @@ const Base = {
             imgObserver.observe(image);
         })
     },
+    favoriteTemples: (element) => {
+        const imgHtml = document.querySelector(".temples img")
+        
+        imgHtml.setAttribute("data-src", element)
+        imgHtml.setAttribute("data-srcset", element)
+    },
     footer: () => {
         const foot = document.querySelector("footer")
 
