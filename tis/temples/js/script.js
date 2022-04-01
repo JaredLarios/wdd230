@@ -19,8 +19,12 @@ fetch(url)
                                 <h2>${element.name}</h2>
                                 <p>${element.dedicated}</p>
                                 <p>${element.location}</p>
-                                <img src="${element.image}" alt="${element.name}" width="350px">
-                                <button>More info</button>
+                                <section>
+                                    <img src="${element.image}" alt="${element.name}" width="350px">
+                                    <section class="btn">
+                                        <button>More info</button>
+                                    </section>
+                                </section>
                             </div>
                             ` 
             });

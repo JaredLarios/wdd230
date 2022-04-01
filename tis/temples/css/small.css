@@ -1,20 +1,87 @@
+:root {
+    --bg-main-color: rgba(128, 128, 128, 0.795);
+    --bg-sec-color: #80808085;
+    --bg-third-color: #d1b01bde;
+    --font-color-light: black;
+    --font-color-dark: white;
+}
+
+/* ---- Temple Cards  ----*/
 main section.temples div {
-    background-color: rgba(128, 128, 128, 0.308);
+    background-color: #8080804f;
     text-align: center;
     margin: 25px 0;
     border-radius: 10px;
+    padding-bottom: 15px;
 }
 
 main section.temples h2 {
     line-height: 55px;
 }
 
+/*  ---- Temple overlay ----*/
 main section.temples img {
     border-radius: 10px;
+    width: 90vw;
+    height: 350px;
+    object-fit: cover;
+}
+
+main section.temples :hover .btn {
+    transition: 0.5s;
+    visibility: visible;
+}
+
+main section.temples :hover img {
+    transition: 0.5s;
+    filter: opacity(3px);
+    filter: blur(3px);
+}
+
+
+main section.temples div section {
+    position: relative;
+}
+
+main section.temples div section section.btn {
+    background-color: var(--bg-sec-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    width: 90vw;
+
+    margin: auto;
+    border-radius: 10px;
+
+    visibility: hidden;
 }
 
 main section.temples button {
+    border: none;
     display: block;
     margin: auto;
     width: 70vw;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 13vw;
+    width: 55vw;
+    border-radius: 10px;;
+    font-family: sans-serif;
+    background-color: var(--bg-third-color);
+    color: white;
+    font-size: 25px;
+    
+}
+
+main section.temples button:hover {
+    background-color: var(--bg-sec-color);
+    color: var(--bg-third-color);
+    border: var(--bg-third-color) 2px solid;
 }
