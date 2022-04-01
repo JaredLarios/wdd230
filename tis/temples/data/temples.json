@@ -1,0 +1,124 @@
+{
+    "temples" : [
+        {
+            "name": "Aba Nigeria Temple",
+            "location": "Aba, Abia, Nigeria",
+            "dedicated": "7 August 2005",
+            "image": "https://assets.ldscdn.org/b3/1f/b31f8fc3892ce063cfbd0607cd53980290fcc0ae/aba_nigeria_temple_lds.jpeg"
+        },
+        {
+            "name": "Abidjan Ivory Coast Temple",
+            "location": "Abidjan, Ivory Coast",
+            "dedicated": "Construction",
+            "image": "https://assets.ldscdn.org/7f/a0/7fa087c304703b26ff57f08a01b138607d7d615c1118834/rendering_abidjan_ivory_coast_temple.jpeg"
+        },
+        {
+            "name": "Accra Ghana Temple",
+            "location": "Accra, Greater Accra, Ghana",
+            "dedicated": "11 January 2004",
+            "image": "https://assets.ldscdn.org/87/5d/875db78e8219c9c6f476fd0fd88f444b986a0d0f/accra_ghana_temple_lds.jpeg"
+        },
+        {
+            "name": "Albuquerque New Mexico Temple",
+            "location": "Albuquerque, New Mexico, United States",
+            "dedicated": "5 March 2000",
+            "iamge": "https://assets.ldscdn.org/4e/c6/4ec65ba71856b3b99fb5547a193ee868b7f622b9/albuquerque_new_mexico_temple.jpeg"
+        },
+        {
+            "name": "Anchorage Alaska Temple",
+            "location": "Anchorage, Alaska, United States",
+            "dedicated": "9 January 1999",
+            "iamge": "https://assets.ldscdn.org/22/b3/22b36eeb6bcf2bb8f9f23a905f1434599ee6b4f4/anchorage_alaska_temple_lds.jpeg"
+        },
+        {
+            "name": "Atlanta Georgia Temple",
+            "location": "Sandy Springs, Georgia, United States",
+            "dedicated": "1 June 1983",
+            "image": "https://assets.ldscdn.org/64/78/6478bfbb81105c30da60122ecf1bb7f13523f8fc/atlanta_temple_lds.jpeg"
+        },
+        {
+            "name": "Baton Rouge Louisiana Temple",
+            "location": "Baton Rouge, Louisiana, United States",
+            "dedicated": "16 July 2000",
+            "image": "https://assets.ldscdn.org/64/51/6451dea44531db4c096c1cb2058d0b7bd982abec/baton_rouge_louisiana_temple.jpeg"
+        },
+        {
+            "name": "Billings Montana Temple",
+            "location": "Billings, Montana, United States",
+            "dedicated": "20 November 1999",
+            "image": "https://assets.ldscdn.org/3c/3b/3c3b13349ed034932376cd8a91a42cac2b71c72d/billings_montana_temple.jpeg"
+        },
+        {
+            "name": "Birmingham Alabama Temple",
+            "location": "Gardendale, Alabama, United States",
+            "dedicated": "3 September 2000",
+            "image": "https://assets.ldscdn.org/9c/56/9c564cd3769643416a82118654302bdb9f30ca0e/birmingham_alabama_temple_lds.jpeg"
+        },
+        {
+            "name": "Bismarck North Dakota Temple",
+            "location": "Bismarck, North Dakota, United States",
+            "dedicated": "19 September 1999",
+            "image": "https://assets.ldscdn.org/89/23/89235b56c836c19833637cd80316227741944e99/bismark_north_dakota_temple.jpeg"
+        },
+        {
+            "name": "Boise Idaho Temple",
+            "location": "Boise, Idaho, United States",
+            "dedicated": "25 May 1984",
+            "image": "https://assets.ldscdn.org/29/8b/298bdc171826d2561184579b7f51521f36994836/boise_idaho_temple_sunshine.jpeg"
+        },
+        {
+            "name": "Boston Massachusetts Temple",
+            "location": "Belmont, Massachusetts, United States",
+            "dedicated": "1 October 2000",
+            "image": "https://assets.ldscdn.org/9d/19/9d19bab74ee92c28620ac37241713ab98cdf2263/boston_temple_lds.jpeg"
+        },
+        {
+            "name": "Bountiful Utah Temple",
+            "location": "Bountiful, Utah, United States",
+            "dedicated": "8 January 1995",
+            "image": "https://assets.ldscdn.org/69/89/6989b0f5530a6a15a7d50518cf8c51f9e107b8c4/bountiful_temple_lds.jpeg"
+        },
+        {
+            "name": "Brigham City Utah Temple",
+            "location": "Brigham City, Utah, United States",
+            "dedicated": "23 September 2012",
+            "image": "https://assets.ldscdn.org/93/92/9392e6adee3d1aa025548de1a852a27ad8ea40f4/brigham_city_utah_temple_dawn.jpeg"
+        },
+        {
+            "name": "Cedar City Utah Temple",
+            "location": "Cedar City, Utah, United States",
+            "dedicated": "10 December 2017",
+            "image": "https://assets.ldscdn.org/b2/89/b2891eb1787414ec6995a32c42d03981732c2d6a/cedar_city_utah_temple_exterior.jpeg"
+        },
+        {
+            "name": "Chicago Illinois Temple",
+            "location": "Glenview, Illinois, United States",
+            "dedicated": "9 August 1985",
+            "image": "https://assets.ldscdn.org/36/97/36971f3cc51350f4eb75eb3d310f798ae783f556/chicago_temple_lds.jpeg"
+        },
+        {
+            "name": "Columbia River Washington Temple",
+            "location": "Richland, Washington, United States",
+            "dedicated": "18 November 2001",
+            "image": "https://assets.ldscdn.org/c4/81/c481873aae889bb1a2bb13e37aa47f4a90e0d727/columbia_river_temple_lds.jpg"
+        },
+        {
+            "name": "Dallas Texas Temple",
+            "location": "Dallas, Texas, United States",
+            "dedicated": "19 October 1984",
+            "image": "https://assets.ldscdn.org/3a/22/3a227fd5a3b70bee2fecf6fae7adbdf0aeb430dc/dallas_texas_temple.jpeg"
+        },
+        {
+            "name": "Denver Colorado Temple",
+            "location": "Centennial, Colorado, United States",
+            "dedicated": "24 October 1986",
+            "image": "https://assets.ldscdn.org/f2/3e/f23ea5ed176dc44b1c624868ddd0e05b20675ee0/denver_colorado_temple_grounds.jpeg"
+        },
+        {
+            "name": "Detroit Michigan Temple",
+            "location": "Bloomfield Hills, Michigan, United States",
+            "dedicated": "23 October 1999",
+            "image": "https://assets.ldscdn.org/6e/16/6e16c01b8b646faeefbef94393746054d090c717/detroit_temple_lds.jpeg"
+        }
+    ]
+}
