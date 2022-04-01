@@ -281,7 +281,7 @@ footer div.footer-content {
 }
 
 footer div img {
-    width: 200px;
+    width: 35vw;
 }
 
 footer div.info {
@@ -294,6 +294,7 @@ footer ul {
     padding: 15px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
