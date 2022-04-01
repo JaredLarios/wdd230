@@ -1,5 +1,20 @@
 main section.temples div {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.308);
     text-align: center;
     margin: 25px 0;
+    border-radius: 10px;
+}
+
+main section.temples h2 {
+    line-height: 55px;
+}
+
+main section.temples img {
+    border-radius: 10px;
+}
+
+main section.temples button {
+    display: block;
+    margin: auto;
+    width: 70vw;
 }

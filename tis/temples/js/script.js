@@ -20,7 +20,7 @@ fetch(url)
                                 <p>${element.dedicated}</p>
                                 <p>${element.location}</p>
                                 <img src="${element.image}" alt="${element.name}" width="350px">
-                                <button>Reserve Near this Temple</button>
+                                <button>More info</button>
                             </div>
                             ` 
             });
