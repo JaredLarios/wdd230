@@ -61,7 +61,7 @@ const Base = {
 
         foot.innerHTML = `
         <div class="footer-content">
-            <img src="images/logo.png">
+            <img src="https://jaredlarios.github.io/wdd230/tis/images/logo.png">
             <div class="info">
                 <h2>Temple Inn & Suites</h2>
                 <p>Email: info@tis.org</p>
