@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jared Larios" />
+    <meta
+      name="description"
+      content="Is a chain of hotels that offers the best family and frinds experience while you travel to temples or other locations."
+    />
+
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/medium.css" />
+    <link rel="stylesheet" href="../css/large.css" />
+
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <title>Reservations | TIS Hotels</title>
+  </head>
+  <body>
+    <header class="">
+      <div class="logo-side">
+        <picture>
+          <!--
+          <img
+            class="logo-header"
+            srcset="
+            images/logo.jpg,
+              images/logo.webp        3x,
+              images/logo-medium.webp 2x"
+              src="images/logo.jpg"
+              alt="logo"
+              />
+             -->
+          <img src="../images/logo.png" alt="logo" />
+        </picture>
+        <h2>TIS</h2>
+      </div>
+      <span class="menu-bars"><i class="fas fa-bars"></i></span>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../temples/temples.html">Temples</a></li>
+        <li><a href="#">Reservations</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="main-banner">
+        <picture>
+          <img
+            srcset="
+              ../images/banner-500.jpg  320w,
+              ../images/banner-700.jpg  480w,
+              ../images/banner-1000.jpg 800w
+            "
+            src="../images/banner-500.jpg"
+            alt="banner"
+          />
+        </picture>
+        <div class="tittle-banner">
+          <h1>Temples</h1>
+          <p>Your Favorit hotel near your Favorite Temple</p>
+        </div>
+      </section>
+      <form action="thanks.html">
+        <form action="thankyou.html" method="get">
+          <fieldset>
+            <legend>Contact Information</legend>
+
+            <label class="textEntry">
+              First Name*
+              <input type="text" name="fname" required />
+            </label>
+
+            <label class="textEntry">
+              Last Name*
+              <input type="text" name="lname" required />
+            </label>
+
+            <span id="posErr" class="textEntry"></span>
+
+            <label class="textEntry">
+              Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="someone@example.com"
+                required
+              />
+            </label>
+
+            <label class="textEntry">
+              Phone
+              <input type="tel" name="phone" placeholder="5025555" />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Reservation Information</legend>
+
+            <label class="textEntry">
+              Location*
+              <select id="locations" name="locator" required>
+                <option value="select">Select a Temple</option>
+              </select>
+            </label>
+
+            <label class="textEntry">
+              Amount of rooms*
+              <input type="number" name="rooms" required />
+            </label>
+
+            <div class="textEntry">
+              Service Level*
+
+            </div>
+
+            <label class="sbs">
+              <input type="radio" name="level" value="gold" />
+              Gold Membership
+            </label>
+
+            <label class="sbs">
+              <input type="radio" name="level" value="np" />
+              NP Membership
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Billing Information</legend>
+
+            <label class="textEntry">
+              Card Name/Title*
+              <input type="text" name="Cname" required />
+            </label>
+            <label class="textEntry">
+                Card Number*
+                <input type="text" name="cardnumber" required />
+            </label>
+
+            <label class="textEntry">
+                Security PIN*
+                <input type="password" name="password" required />
+            </label>
+
+
+
+            <label class="textEntry" id="date">
+              Date
+              <input type="datetime" name="date" />
+            </label>
+          </fieldset>
+
+          <input type="submit" value="Reserve Now" class="submitBtn" />
+        </form>
+      </form>
+    </main>
+    <footer></footer>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
