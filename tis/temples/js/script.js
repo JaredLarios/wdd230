@@ -15,7 +15,7 @@ fetch(url)
             templesList.forEach( (element) => {
 
                 tempSection.innerHTML += `
-                            <div>
+                            <div class="card">
                                 <h2>${element.name}</h2>
                                 <p>${element.dedicated}</p>
                                 <p>${element.location}</p>
