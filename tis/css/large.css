@@ -25,11 +25,26 @@
         margin: 20px -95px 20px auto;
     }
 
+    nav.menu ul li:hover {
+        background-color: var(--bg-main-color);
+    }
+
     .menu {
         visibility: visible;
         top: 0px;
         max-width: 1274px;
         height: 80px;
         margin: auto;
+    }
+
+    main {
+        max-width: 1274px;
+        margin: auto;
+    }
+
+    .content,
+    section.temples section,
+    section.temples img {
+        max-width: 1274px;
     }
 }
