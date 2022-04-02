@@ -56,4 +56,13 @@
     section.temples img {
         max-width: 1274px;
     }
+
+    footer .footer-content img {
+        max-width: 300px;
+        margin: 35px;
+    }
+    footer .footer-content {
+        max-width: 1274px;
+        margin: auto;
+    }
 }

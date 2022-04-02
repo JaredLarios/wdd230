@@ -74,7 +74,7 @@ const Base = {
                 <p>Phone: 424535789</p>
             </div>
             <ul>
-            <li><a href="temples/locations.html">Locations</a></li>
+            <li><a href="temples/locations.html">Temples</a></li>
             <li><a href="reservations/reserve.html">Reservations</a></li>
             <li><a href="services/serveices.html">Services</a></li>
             </ul>
