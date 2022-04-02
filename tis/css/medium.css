@@ -1,10 +1,10 @@
 @media only screen and (min-width: 34.5em) {
     :root {
-    --bg-main-color: rgba(128, 128, 128, 0.795);
-    --bg-sec-color: #80808085;
-    --bg-third-color: #d1b01bde;
-    --font-color-light: black;
-    --font-color-dark: white;
+        --bg-main-color: #808080e8;
+        --bg-sec-color: #808080fa;
+        --bg-third-color: #d1b01be7;
+        --font-color-light: black;
+        --font-color-dark: white;
     }
 
     main .content:nth-child(3) {

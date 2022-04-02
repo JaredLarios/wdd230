@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 :root {
-    --bg-main-color: rgba(128, 128, 128, 0.795);
-    --bg-sec-color: #80808085;
-    --bg-third-color: #d1b01bde;
+    --bg-main-color: #808080e8;
+    --bg-sec-color: #808080fa;
+    --bg-third-color: #d1b01be7;
     --font-color-light: black;
     --font-color-dark: white;
 }

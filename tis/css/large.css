@@ -1,8 +1,8 @@
 @media only screen and (min-width: 47.7em) {
     :root {
-        --bg-main-color: rgba(128, 128, 128, 0.795);
-        --bg-sec-color: #80808085;
-        --bg-third-color: #d1b01bde;
+        --bg-main-color: #808080e8;
+        --bg-sec-color: #808080fa;
+        --bg-third-color: #d1b01be7;
         --font-color-light: black;
         --font-color-dark: white;
     }
@@ -46,12 +46,6 @@
         margin: auto;
     }
 
-    main {
-        max-width: 1274px;
-        margin: auto;
-    }
-
-    .content,
     section.temples section,
     section.temples img {
         max-width: 1274px;
@@ -64,5 +58,71 @@
     footer .footer-content {
         max-width: 1274px;
         margin: auto;
+    }
+
+    /* sections of the main content*/
+
+    main {
+        max-width: 1274px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+
+    main .main-banner {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        max-width: 1274px;
+    }
+
+    main .content:nth-child(2) {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        display: flex;
+        max-width: 1274px;
+    }
+    main .content:nth-child(2) div{
+        max-width: 40vw;
+        margin: 95px auto;
+    }
+
+    main .content:nth-child(2) img {
+        width: 30vw;
+        border-radius: 10px;
+    }
+
+    /*  ---- Second Content ---- */
+    main .content:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+
+        width: 45vw;
+        max-width: 620px;
+    }
+
+    /* ---- Third Contentn ----*/
+
+    main .content:nth-child(4) {
+        grid-column: 3/4;
+        grid-row: 3/4;
+
+        width: 45vw;
+        max-width: 620px;
+    }
+
+    main .content:nth-child(4) img {
+        width: 15vw;
+    }
+
+    main .content:nth-child(4) div {
+        width: 3550px;
+    }
+
+    main .content:nth-child(5) {
+        grid-column: 1/4;
+        grid-row: 4/5;
+        max-width: 1274px;
+        height: 350px;
     }
 }
