@@ -2,4 +2,8 @@
     main {
         display: block;
     }
+    main .card button {
+        max-height: 80px;
+        max-width: 200px;
+    }
 }
