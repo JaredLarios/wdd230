@@ -200,6 +200,7 @@ main .content:nth-child(3) div{
     margin: auto;
     width: 300px;
     border-radius: 0 0 10px 10px;
+    padding: 15px;
 }
 
 main .content:nth-child(3) img{
@@ -207,7 +208,7 @@ main .content:nth-child(3) img{
 }
 
 main .content:nth-child(3) figure {
-    width: 300px;
+    width: 330px;
     height: 400px;
     margin: auto;
 }
@@ -223,8 +224,12 @@ main .content:nth-child(3) img {
 main .content:nth-child(4){
     display: flex;
     flex-direction: row;
-    margin: 15px 0;
-    margin: 15px;
+    width: 95vw;
+    margin: auto;
+}
+
+main .content:nth-child(4) div h2{
+    margin: 45% auto 0;
 }
 
 main .content:nth-child(4) div{
@@ -235,7 +240,7 @@ main .content:nth-child(4) div{
 }
 
 main .content:nth-child(4) figure{
-    width: 450px;
+    width: 65vw;
     height: 400px;
 }
 
