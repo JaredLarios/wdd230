@@ -77,7 +77,6 @@ const Base = {
             <li><a href="temples/locations.html">Locations</a></li>
             <li><a href="reservations/reserve.html">Reservations</a></li>
             <li><a href="services/serveices.html">Services</a></li>
-            <li><a href="#">Home</a></li>
             </ul>
         </div>
 
