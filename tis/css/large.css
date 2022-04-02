@@ -9,8 +9,17 @@
 
     /* header */
     header {
-        max-width: 1274px;
         margin: auto;
+    }
+
+    header .logo-side {
+        width: 100vw;
+        max-width: 1250px;
+        margin: auto;
+    }
+
+    header .logo-side h2 {
+        margin-left: 0;
     }
 
     header .menu-bars {
