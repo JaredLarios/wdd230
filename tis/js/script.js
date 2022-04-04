@@ -2,7 +2,8 @@ import Base from "./base.js"
 import weather from "./weather.js"
 
 const url = "https://jaredlarios.github.io/wdd230/tis/temples/data/temples.json"
-const urlWeather = "https://api.openweathermap.org/data/2.5/weather?q=Guatemala&APPID=862fee3919d923879c6028ea877368b0"
+/*const urlWeather = "https://api.openweathermap.org/data/2.5/weather?q=Guatemala&APPID=862fee3919d923879c6028ea877368b0"*/
+const urlWeather = "https://api.openweathermap.org/data/2.5/onecall?lat=14.6407&lon=-90.5133&exclude=minutely&appid=862fee3919d923879c6028ea877368b0"
 
 fetch(url)
     .then((response) => response.json())
@@ -28,5 +29,6 @@ fetch(urlWeather)
         (jsObject) => {
             console.log(jsObject)
             weather.card(jsObject)
+            weather.alert(jsObject)
         }
     )
