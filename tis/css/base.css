@@ -318,3 +318,27 @@ footer ul li a {
 footer .credits {
     text-align: center;
 }
+
+/* ------- Weather ------*/
+
+/* Card */
+
+main section#weather {
+    border-radius: 10px 0 0 10px;
+    height: 120px;
+    width: 250px;
+    margin: auto 0px 5px auto;
+
+    bottom: 10px;
+    right: 0;
+
+    text-align: center;
+    background-color: var(--bg-third-color);
+    color: white;
+    position: sticky;
+    
+}
+
+main section#weather img {
+    display: flex;
+}
