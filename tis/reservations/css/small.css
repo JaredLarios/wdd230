@@ -103,4 +103,5 @@ section.service-lvl-info {
 main .services {
     border: red solid 6px;
     border-radius: 10px;
+    visibility: hidden;
 }

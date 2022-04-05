@@ -17,6 +17,8 @@
     }
 
     main .services {
+        visibility: visible;
+        
         grid-column: 4/5;
         grid-row: 1/4;
         position: sticky;
