@@ -64,6 +64,7 @@ const Base = {
         const foot = document.querySelector("footer")
 
         let time = new Date
+        let update = document.lastModified;
 
         foot.innerHTML = `
         <div class="footer-content">
@@ -81,7 +82,7 @@ const Base = {
         </div>
 
         <p class="credits">
-            <span>&copy ${time.getFullYear()} | E. Jared Larios | BYU-Idaho | WDD230</span>
+            <span>&copy ${time.getFullYear()} | E. Jared Larios | BYU-Idaho | WDD230 | Updated: ${update}</span>
         </p>
 
         `

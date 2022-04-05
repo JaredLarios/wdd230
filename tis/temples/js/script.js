@@ -22,7 +22,7 @@ fetch(url)
                                 <section>
                                     <img src="${element.image}" alt="${element.name}" width="350px">
                                     <section class="btn">
-                                        <button>More info</button>
+                                        <button>Like</button>
                                     </section>
                                 </section>
                             </div>
