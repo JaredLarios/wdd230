@@ -1,0 +1,32 @@
+@media only screen and (min-width: 47.7em) {
+    :root {
+        --bg-main-color: #808080e8;
+        --bg-sec-color: #808080fa;
+        --bg-third-color: #d1b01be7;
+        --font-color-light: black;
+        --font-color-dark: white;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 25px;
+    }
+    main form {
+        grid-column: 2/4;
+        grid-row: 2/5;
+    }
+
+    main .services {
+        grid-column: 4/5;
+        grid-row: 1/4;
+        position: sticky;
+        top: 20vw;
+        left: auto;
+        margin: auto;
+
+        background-color: var(--bg-third-color);
+        color: white;
+        height: 200px;
+        
+    }
+}

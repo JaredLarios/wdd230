@@ -97,3 +97,10 @@ form div#description {
 section.service-lvl-info {
     display: none;
 }
+
+/*  Services Freee and Memebership info */
+
+main .services {
+    border: red solid 6px;
+    border-radius: 10px;
+}
