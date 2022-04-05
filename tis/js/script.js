@@ -29,6 +29,8 @@ fetch(urlWeather)
         (jsObject) => {
             console.log(jsObject)
             weather.card(jsObject)
-            weather.alert(jsObject)
+
+            // Alerts don't alowed in Guatemala
+            /*weather.alert(jsObject)*/
         }
     )
