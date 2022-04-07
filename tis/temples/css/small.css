@@ -85,3 +85,8 @@ main section.temples button:hover {
     color: var(--bg-third-color);
     border: var(--bg-third-color) 2px solid;
 }
+
+main .like {
+    border: 3px solid var(--bg-third-color);
+    background-color: var(--bg-third-color);
+}
