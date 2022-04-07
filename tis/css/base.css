@@ -319,6 +319,11 @@ footer .credits {
     text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
 /* ------- Weather ------*/
 
 /* Card */
@@ -364,4 +369,22 @@ main section#alert {
 
 main .show {
     visibility: visible;
+}
+
+/*  --------- Maps  ---------  */
+iframe {
+    width: 100%;
+    height: 450px;
+}
+.gmap_canvas {
+    width: 100%;
+    overflow: hidden;
+    background: none !important;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 450px;
+    width: 100%;
 }

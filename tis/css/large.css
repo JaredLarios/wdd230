@@ -120,7 +120,7 @@
     }
 
     main .content:nth-child(5) {
-        grid-column: 1/4;
+        grid-column: 1/5;
         grid-row: 4/5;
         max-width: 1274px;
         height: 350px;
@@ -129,10 +129,18 @@
     main section#weather,
     main section#alert {
         grid-column: 4/5;
-        grid-row: 4/5;
+        grid-row: 5/6;
         border-radius: 10px;
         margin-bottom: 50px;
         position: sticky;
         width: 250px;
+    }
+
+    /* ----  align   ---- */
+
+    main .content:nth-child(6) {
+        grid-column: 1/4;
+        grid-row: 5/6;
+        max-width: 1274px;
     }
 }
