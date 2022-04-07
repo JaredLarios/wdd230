@@ -106,9 +106,9 @@ const Base = {
                 <p><a href="https://jaredlarios.github.io/wdd230/tis/index.html#location">4800 Montgomery Ln #300, <br> Bethesda, MD 20814</a></p>
             </div>
             <ul>
-            <li><a href="temples/locations.html">Temples</a></li>
-            <li><a href="reservations/reserve.html">Reservations</a></li>
-            <li><a href="services/serveices.html">Services</a></li>
+            <li><a href="https://jaredlarios.github.io/wdd230/tis/temples/temples.html">Temples</a></li>
+            <li><a href="https://jaredlarios.github.io/wdd230/tis/reservations/reserve.html">Reservations</a></li>
+            <li><a href="https://jaredlarios.github.io/wdd230/tis/services/services.html">Services</a></li>
             </ul>
         </div>
 

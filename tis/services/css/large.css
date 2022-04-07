@@ -1,0 +1,36 @@
+@media only screen and (min-width: 47.7em) {
+    :root {
+        --bg-main-color: #808080e8;
+        --bg-sec-color: #808080fa;
+        --bg-third-color: #d1b01be7;
+        --font-color-light: black;
+        --font-color-dark: white;
+    }
+    
+    main {
+        display: block;
+    }
+
+    main .main-content {
+        display: flex;
+    }
+
+    main .main-content img {
+        width: 450px;
+        margin: auto;
+    }
+
+    main .main-content div {
+        margin: auto;
+        padding: 45px;
+    }
+
+    main .main-content h2 {
+        text-align: center;
+        padding: 15px;
+    }
+
+    main .main-content li {
+        padding: 8px;
+    }
+}

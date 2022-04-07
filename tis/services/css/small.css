@@ -1,0 +1,28 @@
+:root {
+    --bg-main-color: #808080e8;
+    --bg-sec-color: #808080fa;
+    --bg-third-color: #d1b01be7;
+    --font-color-light: black;
+    --font-color-dark: white;
+}
+
+main .main-content {
+    margin: 25px 0;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+main .main-content li {
+    font-family: sans-serif;
+}
+
+main .main-content img {
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+main .main-content h2 {
+    font-size: 2.3rem;
+}
