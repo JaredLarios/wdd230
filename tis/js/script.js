@@ -10,10 +10,12 @@ fetch(url)
         (jsObject) => {
             console.log(jsObject.temples)
             const templesList = jsObject.temples
+            const btnLink = document.querySelector(".join button")
 
             let randomTemple = templesList[Math.floor(Math.random()*templesList.length)].image;
             let randomFavTemple = localStorage.getItem("favoriteTemples")
             let templeImage = localStorage.getItem("favTempleImg")
+            
             console.log(randomTemple)       
 
             Base.scroll()
@@ -22,6 +24,8 @@ fetch(url)
             Base.favoriteTemples(randomTemple)
             Base.favTemnpleCard(randomFavTemple, templeImage)
             Base.footer()
+
+            btnLink.addEventListener("click", ()=> location.href = "reservations/reserve.html")
         }
     )
 
