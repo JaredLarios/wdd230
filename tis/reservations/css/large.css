@@ -31,4 +31,8 @@
         height: 200px;
         
     }
+    main .thankyou {
+        grid-column: 1/5;
+        grid-row: auto;
+    }
 }

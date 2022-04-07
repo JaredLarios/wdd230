@@ -35,6 +35,7 @@ form span {
 }
 
 form label.textEntry input,
+form label.textEntry textarea,
 form label.textEntry select {
     -webkit-appearance: none;
     display: block;
@@ -104,4 +105,9 @@ main .services {
     border: red solid 6px;
     border-radius: 10px;
     visibility: hidden;
+}
+
+main .thankyou {
+    padding: 250px 0;
+    text-align: center;
 }

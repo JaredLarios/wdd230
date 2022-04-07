@@ -110,6 +110,11 @@
             <legend>Reservation Information</legend>
 
             <label class="textEntry">
+              Date*
+              <input type="date" name="date" required />
+            </label>
+
+            <label class="textEntry">
               Location*
               <select id="locations" name="locator" required>
                 <option value="select">Select a Temple</option>
@@ -128,12 +133,17 @@
 
             <label class="sbs">
               <input type="radio" name="level" value="gold" />
-              Gold Membership
+              Imperial Suite
+            </label>
+
+            <label class="sbs">
+              <input type="radio" name="level" value="gold" />
+              Golden Suite
             </label>
 
             <label class="sbs">
               <input type="radio" name="level" value="np" />
-              NP Membership
+              Room
             </label>
           </fieldset>
 
@@ -154,15 +164,21 @@
                 <input type="password" name="password" required />
             </label>
 
+          </fieldset>
 
+          <fieldset>
+            <legend>Comments</legend>
 
-            <label class="textEntry" id="date">
-              Date
-              <input type="datetime" name="date" />
+            <label for="description" class="textEntry">
+              Include some comments taht may be usefull for a better service
+              <div id="description">
+                <textarea name="description" cols="45" rows="10"></textarea>
+              </div>
             </label>
           </fieldset>
 
           <input type="submit" value="Reserve Now" class="submitBtn" />
+
         </form>
 
         <section class="services">
