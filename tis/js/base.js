@@ -73,6 +73,7 @@ const Base = {
                 <h2>Temple Inn & Suites</h2>
                 <p>Email: info@tis.org</p>
                 <p>Phone: 424535789</p>
+                <p><a href="https://jaredlarios.github.io/wdd230/tis/index.html#location">4800 Montgomery Ln #300, <br> Bethesda, MD 20814</a></p>
             </div>
             <ul>
             <li><a href="temples/locations.html">Temples</a></li>
