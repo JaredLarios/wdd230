@@ -186,4 +186,7 @@
     .fav-temple section:nth-child(2) button {
         margin: 25px;
     }
+    .hidden {
+        display: none;
+    }
 }

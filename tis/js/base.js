@@ -80,9 +80,12 @@ const Base = {
         section2.appendChild(h3Info)
         section2.appendChild(btn)
 
-        if (templeName != null && templeImg != null) {
+        if ((templeName != null && templeImg != null) && (templeName != "" && templeImg != "") ) {
             templeCard.appendChild(section)
             templeCard.appendChild(section2)
+        }
+        else {
+            templeCard.setAttribute("class","hidden")
         }
 
         btn.addEventListener("click", () => location.href = "https://jaredlarios.github.io/wdd230/tis/reservations/reserve.html")
