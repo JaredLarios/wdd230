@@ -153,6 +153,10 @@ main .main-banner .socials span {
     border-radius: 50%;
 }
 
+main .main-banner .socials a {
+    text-decoration: none;
+    color: white;
+}
 /*------ Content ------*/
 
 /*--- first item ---*/
