@@ -60,6 +60,33 @@ const Base = {
         imgHtml.setAttribute("data-src", element)
         imgHtml.setAttribute("data-srcset", element)
     },
+    favTemnpleCard: (templeName, templeImg) => {
+        const templeCard = document.querySelector(".fav-temple")
+        const h3 = document.createElement("h3")
+        const h3Info = document.createElement("h3")
+        const btn = document.createElement("button")
+        const section = document.createElement("section")
+        const section2 = document.createElement("section")
+        const img = document.createElement("img")
+
+        h3.textContent = templeName
+        h3Info.textContent = "Reserve now!"
+        btn.textContent = "Reserve"
+        img.src = templeImg
+        img.alt = templeName
+
+        section.appendChild(img)
+        section.appendChild(h3)
+        section2.appendChild(h3Info)
+        section2.appendChild(btn)
+
+        if (templeName != null && templeImg != null) {
+            templeCard.appendChild(section)
+            templeCard.appendChild(section2)
+        }
+
+        btn.addEventListener("click", () => location.href = "https://jaredlarios.github.io/wdd230/tis/reservations/reserve.html")
+    },
     footer: () => {
         const foot = document.querySelector("footer")
 

@@ -388,3 +388,7 @@ iframe {
     height: 450px;
     width: 100%;
 }
+
+.fav-temple {
+    display: none;
+}
